@@ -31,9 +31,17 @@
 			   value="Affiche" />
 			   
 		<!-- Remplissage ou vide -->   
-		<input type="button"
+		<!-- <input type="button"
 			   onclick=" var champ=document.getElementById('information').value;
 				         console.log(champ);
+				         if(champ=='')
+					         alert('Champ vide');
+				         else
+					         alert('Champ rempli');
+				   "
+			   value="Test rempli" />-->
+		<input type="button"
+			   onclick=" var champ=document.getElementById('information').value;
 				         if(champ=='')
 					         alert('Champ vide');
 				         else
