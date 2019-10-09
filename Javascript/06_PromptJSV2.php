@@ -6,7 +6,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
 	<meta http-equiv="content-language" content="fr" />
 	
-	<title>Test de JavaScript dans un navigateur V2</title>
+	<title>Test de JavaScript dans un navigateur V6</title>
 
 
 <head>
