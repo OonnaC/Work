@@ -22,9 +22,11 @@ var found = 0;
 var nbr_tries = 10;
 var still_true = false;
 var nbr_rand = 0;
+var compteur=0;
 
 //rajoutez vous mots ici :
-var dico = new Array ("JAVASCRIPT", "EDITEUR", "AJAX","PROFESSEUR","DEVELOPPEMENT","CODAGE","WANKIL","TELEGRAMME");
+var dico = new Array ("JAVASCRIPT", "EDITEUR", "AJAX","DEVELOPPEUR","GALINETTE","ORACLE","MYSQL","GAGNE",
+		"PERDU","BRAVO","WORK","WANKIL","CODAGE","TELEGRAMME","PROFESSEUR");
 
 nbr_rand = Math.round(Math.random()*(dico.length));
 
@@ -38,6 +40,7 @@ document.getElementById('sortietxt').innerHTML = "";
 
 while(found < len_word && nbr_tries > 0)
 {
+	compteur++;
 	document.getElementById('sortietxt').innerHTML = "<b>Trouvez le mot : ";
 
 	for(i = 0;i <= myst_word.length; i++)
@@ -53,9 +56,18 @@ while(found < len_word && nbr_tries > 0)
 
 	nbr_tries2 = nbr_tries;
 
+	if(nbr_tries2 > 1)
+		document.getElementById('sortietxt').innerHTML += "<br />Il vous reste "+nbr_tries2+" essais";
+	else
+		if(nbr_tries2 == 1)
+			document.getElementById('sortietxt').innerHTML += "<br />Il vous reste 1 essai";
+
 	document.getElementById('sortietxt').innerHTML += "<br /><br />Proposez une lettre : ";
 	prop_char = prompt("Proposez une lettre :", prop_char);
 	prop_char = prop_char.toUpperCase();
+	
+	document.getElementById('lettrejouee').innerHTML += prop_char+" ";
+	
 	document.getElementById('sortietxt').innerHTML += prop_char;
 
 	prev_word = prop_word;
@@ -85,7 +97,7 @@ while(found < len_word && nbr_tries > 0)
 }//while(found < len_word && nbr_tries > 0)
 
 if(nbr_tries > 0)
-	document.getElementById('sortietxt').innerHTML += "Gagne !<br />";
+	document.getElementById('sortietxt').innerHTML += "Gagne ! en "+compteur+" essais<br />";
 else
 	document.getElementById('sortietxt').innerHTML += "Pendu !<br />";
 
@@ -106,6 +118,10 @@ document.getElementById('sortietxt').innerHTML += "Le mot etait : "+myst_word+"<
 
 	<div id="sortietxt" style="border:1px black solid;padding:5px;background:#D7DDE6">
 		Cliquez sur le bouton pour commencer
+	</div>
+
+	<div id="lettrejouee">
+		Lettres jouees :
 	</div>
 	
 </body>
