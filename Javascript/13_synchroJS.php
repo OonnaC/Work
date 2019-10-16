@@ -6,7 +6,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
 	<meta http-equiv="content-language" content="fr" />
 
-	<script type="text/javascript" src="mesfonctions.js"></script>
+	<script type="text/javascript" src="mesFonctions.js"></script>
 
 	<title>Test de synchronisation</title>
 
@@ -17,7 +17,7 @@
    	<script type="text/javascript">
 		/* ceci est un commentaire Javascript */
 		alert("Hello world - Attendre 5 secondes...");
-		sleep(5000);
+		sleep(3000);
 		alert("Coucou");
 	</script>
 	
