@@ -91,7 +91,7 @@ function IsaLPHAKey(evt)
     return true;
 }
 
-//Fonction du programme 12_TestFormulaireJS.php
+//Fonctions du programme 12_TestFormulaireJS.php
 function testform()
 {
   var chaine="";
@@ -146,4 +146,11 @@ function sleep(milliSeconds){
 		// temporise grace a une boucle
 	}
 
+//Fonctions du programme 14_TimeOutJS.php
+function timeMsg() {
+ 	var t=setTimeout("alertMsgTO()",3000);
+}
 
+function alertMsgTO() {
+ 	alert("Hello Toto!");
+}
