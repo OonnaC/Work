@@ -138,3 +138,12 @@ function testform2()
     return false;
   }
 }
+
+//Fonction du programme 13_synchroJS.php
+function sleep(milliSeconds){
+	var startTime = new Date().getTime(); 	// recupere l’heure systeme
+	while (new Date().getTime() < startTime + milliSeconds);
+		// temporise grace a une boucle
+	}
+
+
