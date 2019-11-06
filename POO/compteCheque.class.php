@@ -10,10 +10,25 @@ class compteCheque extends compte
     {
         return  $this->DecouvertAutorise;
     }
-    public function setDecouvertAutorise()
+    public function setDecouvertAutorise($valeur)
     {
         $this->DecouvertAutorise = $valeur;
     }
+    
+    
+    public function __construct($unNumeroCompte,$unSoldeActuel,$unDecouvertAutorise)
+    {
+        parent::__construct($unNumeroCompte, $unSoldeActuel);
+        $this->setDecouvertAutorise($unDecouvertAutorise);
+    }
+    
+    
+    public function afficheCompte()
+    {
+        parent::afficheCompte();
+        echo "<br /> Decouvert autorise :".$this->decouvertAutorise();
+    }
+    
 }
 
 ?>
