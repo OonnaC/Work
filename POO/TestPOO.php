@@ -8,6 +8,9 @@ class LeCompte
     private $numeroCompte;
     private $soldeActuel;
     
+    //attribut sastique
+    static $compteur = 0;
+    
     //les getteurs (accesseurs)
     public function getNumeroCompte()
     {
@@ -36,6 +39,8 @@ class LeCompte
         $this->setNumeroCompte($unNumero);
         //fonctionne mais pas top
         //$this->$numeroCompte = $unNumero;
+        //Mise en place d'un compteur
+        self::$compteur++;
     }
     
 }//Fin Classe LeCompte
@@ -44,7 +49,11 @@ class LeCompte
 $monCompte = new LeCompte(123,100);
 
 //Test du getteur (accesseur) de la classe LeCompte
-echo $monCompte->getSoldeActuel();
+//Premier Compte
+echo $monCompte->getSoldeActuel()." ".$monCompte::$compteur;
 echo $monCompte->getNumeroCompte();
+//Deuxième Compte
+$monCompte2 = new LeCompte(456,100);
+echo "<br />".$monCompte2->getSoldeActuel()." ".$monCompte2::$compteur;
 
 ?>
