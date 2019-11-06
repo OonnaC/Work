@@ -14,9 +14,9 @@ function ajaxx(url,laDiv)
                   return;
          }
 
-        // Fonction qu'on execute � chaque changement d'�tat du serveur
+        // Fonction qu'on execute a chaque changement d'�tat du serveur
         xmlhttp.onreadystatechange=function() {
-                // On ex�cute les op�rations quand le serveur est pr�t
+                // On execute les operations quand le serveur est pret
                 if ((xmlhttp.readyState == 4) && (xmlhttp.status == 200)) {
                         document.getElementById(laDiv).innerHTML=xmlhttp.responseText;
                 }
