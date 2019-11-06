@@ -23,8 +23,10 @@ function ajaxx(url,laDiv)
 
         }
 
-        // On ouvre le traitement
-        xmlhttp.open("GET",url,true);
+        // On ouvre le traitement (asynchrone)
+        //xmlhttp.open("GET",url,true);
+        // On ouvre le traitement synchrone
+        xmlhttp.open("GET",url,false);
         // On passe les param�tres n�cessaires
         xmlhttp.send(null);
 }
