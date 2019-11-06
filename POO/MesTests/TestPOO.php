@@ -84,7 +84,7 @@ $monCompte2 = new LeCompte(456,100);
 echo "<br />".$monCompte2->getSoldeActuel()." ".$monCompte2::$compteur;
 
 //test du constructeur de la classe compte
-$testcompte = new compte(123,500);
+$testcompte = new LeCompte(123,500);
 
 //affichage
 echo 'le compte n° '.$testcompte -> getNumeroCompte().' possède sur son compte :'.$testcompte -> getSoldeActuel().' €.';
