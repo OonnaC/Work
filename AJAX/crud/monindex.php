@@ -25,7 +25,7 @@
 		<br />    
 		<div id="buttonadd">	
 		    <img src="images/blueadd.png" title="Ajouter un utilisateur" alt="Ajout" onclick=" document.getElementById('messages').innerHTML='';
-		    	                                                                               ajaxx('php/userinsert.php?&amp;login='+(document.getElementById('login').value)+'&amp;email='+(document.getElementById('email').value)+'&amp;password='+(document.getElementById('password').value),'messages');
+		    	                                                                               ajaxx('php/insertuser.php?&amp;login='+(document.getElementById('login').value)+'&amp;email='+(document.getElementById('email').value)+'&amp;password='+(document.getElementById('password').value),'messages');
 			    	                                                                         " />				    																		     
 		</div>
 	</fieldset>
