@@ -1,5 +1,4 @@
 <?php 
-
 class compte
 {
 	const TYPE_COMPTE = "Compte standard";
@@ -36,14 +35,12 @@ class compte
 		self::$compteur++;	
 	}
 	
-	
 	public function afficheCompte()
 	{
 		echo "<br />".self::TYPE_COMPTE." numero : ".self::$compteur;
 		echo " - N° : ".$this->numeroCompte()." Solde : ".$this->soldeActuel()."&euro;<br />";
 	}
 	
-
 	public function depot($uneSomme)
 	{
 		$this->soldeActuel += $uneSomme;
@@ -53,8 +50,5 @@ class compte
 	{
 		$this->soldeActuel -= $uneSomme;
 	}
-	
 }
-
-
 ?>
