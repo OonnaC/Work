@@ -15,7 +15,7 @@
 
 $i=0;
 
-//CORRECTION
+//CORRECTION PARTIE 1
 $i++;
 echo "<tr class=\"altrow\">"; //1ers lignes grises
 echo "<td>EXT</td>";
