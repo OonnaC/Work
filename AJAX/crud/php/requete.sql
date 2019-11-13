@@ -1,0 +1,1 @@
+ERREUR SQL : 13 Nov 2019 - 17:08:38.000000 --> INSERT INTO user (email,login,password) VALUES (mo@gmail.com,momo,momo); : (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com,momo,momo)' at line 1) 
