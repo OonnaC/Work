@@ -2,7 +2,7 @@ var xmlhttp
 
 function ajaxx(url,laDiv)
 {
-        // On génère un objet xmlhttp
+        // On gï¿½nï¿½re un objet xmlhttp
         xmlhttp=GetXmlHttpObject();
         // Test si le navigateur est compatible ajax
         if (xmlhttp==null) {
@@ -10,9 +10,9 @@ function ajaxx(url,laDiv)
                   return;
          }
 
-        // Fonction qu'on execute à chaque changement d'état du serveur
+        // Fonction qu'on execute ï¿½ chaque changement d'ï¿½tat du serveur
         xmlhttp.onreadystatechange=function() {
-                // On exécute les opérations quand le serveur est prêt
+                // On exï¿½cute les opï¿½rations quand le serveur est prï¿½t
                 if ((xmlhttp.readyState == 4) && (xmlhttp.status == 200)) {
                         document.getElementById(laDiv).innerHTML=xmlhttp.responseText;
                 }
@@ -21,7 +21,7 @@ function ajaxx(url,laDiv)
 
         // On ouvre le traitement
         xmlhttp.open("GET",url,true);
-        // On passe les paramètres nécessaires
+        // On passe les paramï¿½tres nï¿½cessaires
         xmlhttp.send(null);
 }
 
@@ -38,4 +38,14 @@ function GetXmlHttpObject()
                   return new ActiveXObject("Microsoft.XMLHTTP");
           }
         return null;
+}
+
+function createAjax()
+{
+	// RÃ©cupÃ©ration des valeurs des champs de formulaire
+	var login = document.getElementById('login').value;
+	var password = document.getElementById('password').value;
+	var email = document.getElementById('email').value;
+
+
 }
