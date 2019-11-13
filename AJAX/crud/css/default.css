@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+
+table {
+	border-width : 1px; 
+ 	border-style : solid; 
+ 	border-color : black;
+ 	width : 100%;
+}
+
+fieldset {
+    width : 400px;
+}
+
+img {
+	border: 0;
+}
+
+div#messages {
+	color : red;
+	text-align: center;
+}
+
+div#listeutilisateurs {
+	color : blue;
+	font-family: Courier New;
+	font-size: 75%; 
+}
+
+div#buttonadd {
+	text-align: center;
+}
+
+div#buttonrefresh {
+	text-align: center;
+}
+
+div#buttonmodif {
+	text-align: center;
+}
