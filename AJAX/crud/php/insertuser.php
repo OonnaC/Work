@@ -1,0 +1,12 @@
+<?php
+
+    include "connectAD.php";
+    
+    
+    
+    
+    
+    
+    
+    
+?>
