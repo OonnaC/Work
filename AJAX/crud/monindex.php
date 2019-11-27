@@ -26,7 +26,7 @@
 		<label for="fonction">Fonction * :</label>
 		<?php 
 		
-		include'/php/connectAD.php';
+		include'php/connectAD.php';
 		
 		$sql = "SELECT * FROM fonction;";
 		$cpt = compteSQL($sql);
