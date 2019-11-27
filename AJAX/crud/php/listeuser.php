@@ -14,7 +14,7 @@
                 <td>".$login."</td>
                 <td>".$password."</td>
                 <td>".$email."</td>
-               </tr>";
+              </tr>";
         //echo $login." ".$password."<br />";
     }
 ?>
