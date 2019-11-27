@@ -5,6 +5,8 @@ table {
  	border-style : solid; 
  	border-color : black;
  	width : 100%;
+ 	background: blue;
+ 	color: white;
 }
 
 fieldset {
