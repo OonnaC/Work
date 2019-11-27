@@ -11,22 +11,54 @@
 </head>
 
 <body>
-
+	<form method="get" >
 	<fieldset>
         <legend>Ajouter un utilisateur : </legend>
-		<label for="login">Login : </label>
+		<label for="login">Login * : </label>
 		<input id="login" name="login" type="text"  size="10" maxlength="8"/>     	
 		&nbsp;&nbsp;&nbsp;
-		<label for="password">Password : </label>
+		<label for="password">Password * : </label>
 		<input id="password" name="password" type="password"  size="10" maxlength="8"/>     	
 		<br /> <br />
-		<label for="email">Email : </label>
-		<input id="email" name="email" type="text"  size="38" maxlength="40"/> 
+		<label for="email">Email * : </label>
+		<input id="email" name="email" type="text"  size="38" maxlength="40"/>
+		<br /> <br />
+		<label for="fonction">Fonction * :</label>
+		<?php 
+		
+		include'/php/connectAD.php';
+		
+		$sql = "SELECT * FROM fonction;";
+		$cpt = compteSQL($sql);
+		$results = tableSQL($sql);
+		
+		?>
+		<select class="gauche" size="1" 
+			        name="fonction" 
+			        id="fonction"
+			        <?php 
+                 		if ($cpt==0) 
+                   			echo "disabled=\"disabled\""; 
+                 	?>	     									>
+                 	
+				<!-- Remplissage le la liste deroulante -->
+				<?php 
+					if ($cpt>0) {						
+						foreach ($results as $ligne) {
+							//on extrait chaque valeur de la ligne courante
+							$ID = $ligne[0];
+							$NOM = $ligne[1];
+							//on affiche la ligne courante dans le select
+							echo "<option value=$ID>$NOM</option>";
+						}											
+					} else {
+						echo "<option>Aucune information...</option>";
+					}
+				?>
+			</select>
 		<br />    
 		<div id="buttonadd">	
-		    <img src="images/blueadd.png" title="Ajouter un utilisateur" alt="Ajout" onclick=" document.getElementById('messages').innerHTML='';
-		    	                                                                               ajaxx('php/insertuser.php?&amp;login='+(document.getElementById('login').value)+'&amp;email='+(document.getElementById('email').value)+'&amp;password='+(document.getElementById('password').value),'messages');
-			    	                                                                         " />				    																		     
+		    <img src="images/blueadd.png" title="Ajouter un utilisateur" alt="Ajout" onclick=" document.getElementById('messages').innerHTML='';ajaxx('php/insertuser.php?&amp;login='+(document.getElementById('login').value)+'&amp;email='+(document.getElementById('email').value)+'&amp;password='+(document.getElementById('password').value),'messages');" />				    																		     
 		</div>
 	</fieldset>
 
@@ -42,9 +74,18 @@
 		<div id="listeutilisateurs">
 			Affichage de la liste des utilisateurs...
 		</div>
+		<table border="1">
+		<tr>
+    		<th>Login</th>
+          	<th>Password</th>
+          	<th>Fonction</th>
+          	<th>Email</th>
+          	<th><img src="images/edittitre16.png" alt="" border=3 height=25 width=25></img></th>
+          	<th><img src="images/deletetitre16.png" alt="" border=3 height=25 width=25></th>
+		</tr>
+		</table>
 		<div id="buttonrefresh">	
-		    <img src="images/refresh.png" title="Rafraichir" alt="Rafraichir" onclick="document.getElementById('messages').innerHTML='';
-			    																	   ajaxx('php/listeuser.php','listeutilisateurs');" />			
+		    <img src="images/refresh.png" title="Rafraichir" alt="Rafraichir" onclick="document.getElementById('messages').innerHTML='';ajaxx('php/listeuser.php','listeutilisateurs');" />			
 		</div>
 	</fieldset>
 	
@@ -53,7 +94,7 @@
 		<div id="modif">
 		</div>
 	</fieldset>
-
+	</form>
 </body>
 
 </html>
