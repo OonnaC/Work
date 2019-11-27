@@ -72,7 +72,7 @@
 	<fieldset>
 		<legend>Listes des utilisateurs : </legend>
 		<div id="listeutilisateurs">
-			Affichage de la liste des utilisateurs...
+			
 		</div>
 		<table border="1">
 		<tr>
