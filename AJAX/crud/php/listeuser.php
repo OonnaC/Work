@@ -1,11 +1,13 @@
 <?php
     include 'connectAD.php';
 
-    $sql="SELECT login, password, email FROM user;";
+    $sql="SELECT login FROM user;";
     
-    $results = tableSQL($sql);
+    afficheRequeteSQL($sql);
     
-    foreach ($results as $ligne) {
+   /* $results = tableSQL($sql);
+    
+   foreach ($results as $ligne) {
         //on extrait chaque valeur de la ligne courante
         $login = $ligne[1];
         $password = $ligne[2];
@@ -16,5 +18,5 @@
                 <td>".$email."</td>
               </tr>";
         //echo $login." ".$password."<br />";
-    }
+    }*/
 ?>
