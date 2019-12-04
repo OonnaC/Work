@@ -1,17 +1,39 @@
 @charset "ISO-8859-1";
 
+fieldset {
+    width : 600px;
+}
+
 table {
 	border-width : 1px; 
  	border-style : solid; 
  	border-color : black;
  	width : 100%;
- 	background: blue;
- 	color: white;
+ 	background: white;
+ 	color: black;
+
 }
 
-fieldset {
-    width : 400px;
+th{
+	color: white;
+	border-width: 1px;
+	border-style : solid; 
+ 	border-color : black;
+ 	background: blue;
+ 	max-width : 132.2836px;
 }
+
+table tbody tr:nth-child(odd) {
+	background: #8caddc; /*#eaf2dd;*/
+}
+
+table tbody tr:nth-child(even) {
+	background: #ABB2C4;/*#d8e5ba;*/
+}
+
+/*td {
+	max-width : 132.2836px;
+}*/
 
 img {
 	border: 0;
