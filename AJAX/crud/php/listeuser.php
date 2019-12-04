@@ -1,9 +1,9 @@
 <?php
     include 'connectAD.php';
 
-    $sql="SELECT login FROM user;";
+    $sql="SELECT * FROM user;";
     
-    afficheRequeteSQL($sql);
+    afficheRequete($sql);
     
    /* $results = tableSQL($sql);
     

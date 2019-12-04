@@ -40,30 +40,5 @@ function GetXmlHttpObject()
         return null;
 }
 
-function createAjax()
-{
-	// Récupération des valeurs des champs de formulaire
-	var login = document.getElementById('login').value;
-	var password = document.getElementById('password').value;
-	var email = document.getElementById('email').value;
-
-	/*var params = '?login=' + encodeURIComponent(login);
-	params += '&password=' + encodeURIComponent(password);
-	params += '&email=' + encodeURIComponent(email);*/
-	
-	var data = login + password + email;
-	
-	xhr.open("GET", "insertuser.php", true);
-	xhr.setRequestHeader("Content-Type", "http://127.0.0.1:8080/edsa-AJAX/crud/monindex.php");                  
-	xhr.send(data);
-
-}
-
-function readAjax()
-{
-	
-	
-
-}
 
 

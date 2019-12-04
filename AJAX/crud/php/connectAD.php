@@ -38,12 +38,12 @@
 	$connexion=connexion($host,$port,$dbname,$user,$password);
 	
 	if ($connexion) {
-	echo "Connexion reussie<br />";
+	/*echo "Connexion reussie<br />";
 		echo "Host : $host:$port<br />";
 		echo "Base $dbname selectionnee... <br />";
 		echo "Utilisateur : $user<br />";
 		echo "Mode acces : $modeacces<br />";
-		echo "Type base : $typebase<hr />";
+		echo "Type base : $typebase<hr />";*/
 	}
 	
 ?>
