@@ -24,7 +24,7 @@
 		<input id="email" name="email" type="email"  size="42" maxlength="40"/>
 		<br /> <br />
 		<label for="fonction">Fonction * :</label>
-		<?php 
+			<?php
 		
 		include'php/connectAD.php';
 		
