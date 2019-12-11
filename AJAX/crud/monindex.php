@@ -21,7 +21,7 @@
 		<input id="password" name="password" type="password"  size="10" maxlength="8"/>     	
 		<br /> <br />
 		<label for="email">Email * : </label>
-		<input id="email" name="email" type="text"  size="38" maxlength="40"/>
+		<input id="email" name="email" type="email"  size="42" maxlength="40"/>
 		<br /> <br />
 		<label for="fonction">Fonction * :</label>
 		<?php 
@@ -74,16 +74,7 @@
 		<div id="listeutilisateurs">
 			
 		</div>
-		<table border="1">
-		<tr>
-    		<th>Login</th>
-          	<th>Password</th>
-          	<th>Fonction</th>
-          	<th>Email</th>
-          	<th><img src="images/edittitre16.png" alt="" border=3 height=25 width=25></img></th>
-          	<th><img src="images/deletetitre16.png" alt="" border=3 height=25 width=25></th>
-		</tr>
-		</table>
+		
 		<div id="buttonrefresh">	
 		    <img src="images/refresh.png" title="Rafraichir" alt="Rafraichir" onclick="document.getElementById('messages').innerHTML='';ajaxx('php/listeuser.php','listeutilisateurs');" />			
 		</div>
