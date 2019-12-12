@@ -153,21 +153,6 @@
     "phpunit/php-token-stream": {
         "version": "2.0.2"
     },
-    "phpunit/phpunit": {
-        "version": "4.7",
-        "recipe": {
-            "repo": "github.com/symfony/recipes",
-            "branch": "master",
-            "version": "4.7",
-            "ref": "f1546d78502f904f37f7b47a42b1444cbf1d3423"
-        },
-        "files": [
-            "./.env.test",
-            "./phpunit.xml.dist",
-            "./config/bootstrap.php",
-            "./tests/.gitignore"
-        ]
-    },
     "phpunit/phpunit-mock-objects": {
         "version": "3.4.4"
     },
