@@ -18,10 +18,10 @@ class BlogStPaulController extends AbstractController
     }
     
     /**
-     * @Route("/", name="blog_st_paul")
+     * @Route("/", name="blog_st_paul/home")
      */
     public function home()
     {
-        return $this->render('blog_st_paul/index.html.twig');
+        return $this->render('blog_st_paul/home.html.twig');
     }
 }
