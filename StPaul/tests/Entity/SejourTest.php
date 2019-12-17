@@ -11,7 +11,7 @@
     {
         public function testSejDteFin()
         {
-            $unsejour = new Sejour('1','Classe de mer','200','2016-05-02','5');
+            $unsejour = new Sejour(1,'Classe de mer',200,'2016-05-02',5);
             //$sej;
             
             $resultatAttendu = '2016-05-07';
