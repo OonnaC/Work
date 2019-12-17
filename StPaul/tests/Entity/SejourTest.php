@@ -3,6 +3,7 @@
     //tests/Entity/SejourTest.php
     namespace App\Tests\Entity;
     
+    require('vendor/autoload.php');
     
     use App\Entity\Sejour;
     use PHPUnit\Framework\TestCase;
