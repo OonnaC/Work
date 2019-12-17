@@ -8,7 +8,16 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass="App\Repository\SejourRepository")
  */
 class Sejour
-{
+{   
+    function __construct($id,$sejintitule,$sejmontantmbi,$sejdtedeb,$sejduree)
+    {
+        $this->id = $id;
+        $this->id = $sejintitule;
+        $this->id = $sejmontantmbi;
+        $this->id = $sejdtedeb;
+        $this->id = $sejduree;
+    }
+    
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
@@ -95,12 +104,13 @@ class Sejour
      */
     public function getSejDteFin(): ?\DateTimeInterface
     {
-        //return $this->sejDteDeb + $this->sejDuree;
-        $duree = $this->getSejDuree();
-        $SejDteFin = $this->getSejDteDeb();
-        $SejDteFin->modify("+".$duree."day");
+        //return $this->sejdtedeb + $this->sejduree;
+        $duree = "+".$this->sejduree."day";
+        $SejDteFin = $this->sejdtedeb->modify($duree);
         
+        //$SejDteFin-> $SejDteFin + $duree;
         return $SejDteFin;
+        
     }
     
     /**
