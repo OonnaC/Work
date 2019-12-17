@@ -93,9 +93,14 @@ class Sejour
      * Retourne la date de fin de séjour
      * @return mixed
      */
-    public function getSejDteFin(): ?\DateTime
+    public function getSejDteFin(): ?\DateTimeInterface
     {
-        return $this->sejDteDeb + $this->sejDuree;
+        //return $this->sejDteDeb + $this->sejDuree;
+        $duree = $this->getSejDuree();
+        $SejDteFin = $this->getSejDteDeb();
+        $SejDteFin->modify("+".$duree."day");
+        
+        return $SejDteFin;
     }
     
     /**
