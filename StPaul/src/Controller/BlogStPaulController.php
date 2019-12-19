@@ -8,19 +8,13 @@ use Symfony\Component\Routing\Annotation\Route;
 class BlogStPaulController extends AbstractController
 {
     /**
-     * @Route("/blogstpaul", name="blog_st_paul")
+     * @Route("/blogstpaul", name="blogstpaul")
      */
     public function index()
     {
-        return $this->render('blog_st_paul/index.html.twig', [
+        return $this->render('blogstpaul/index.html.twig', [
             'controller_name' => 'BlogStPaulController',
         ]);
     }
-    
-    /**
-     * @Route("/", name="home")
-     */
-    public function home() {
-        return $this->render('blog_st_paul/home.html.twig');
-    }
+
 }

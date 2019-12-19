@@ -17,23 +17,6 @@
 <body class="body">
 
 <main class="main">
-
-	<header-null class="header-null">
-		<header class="header">
-			<h1>SAINT PAUL DU TERRAY</a></h1>
-			<menu-null class="menu-null">
-				<div class="menu">
-					<a href="#" class="menu_link">Index</a>
-					<a href="#" class="menu_link">Manifestation</a>
-					<a href="#" class="menu_link">Facturation</a>
-					<a href="#" class="menu_link">Contact</a>
-				</div>
-			</menu-null>
-		</header>
-	</header-null>
-
-	<noscreen/>
-
 		<left class="left">
 			<h2>Madame, Monsieur,</h2>
 			<p>
@@ -53,7 +36,11 @@
 	<noscreen/>
 
 		<right class="right">
-			<h2>Liste des s&eacute;jours prÃ©vus </h2>
+			<h2>Simulation</h2>
+			<fielset>
+			
+			</fielset>
+			<!-- <h2>Liste des s&eacute;jours pr&eacute;vus </h2>
 			<fieldset>
 			<?php
 			$bdd = new PDO('mysql:host=localhost;dbname=bdstpaul;charset=utf8', 'root');
@@ -66,13 +53,9 @@
 					<?php echo $sejour['SEJDUREE'].' nuits' ?>
 				</sejour>
 			<?php endforeach ?>
-			</fieldset>
+			</fieldset>-->
 		</right>
 </main>
-
-<footer class="footer">
-		Copyright &copy; 2019 Saint Paul du Terray
-</footer>
 
 
 </body>

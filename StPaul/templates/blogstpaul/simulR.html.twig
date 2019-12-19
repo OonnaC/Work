@@ -1,0 +1,64 @@
+{# Héritage du contenu base#}
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    {#Modifier ce qui se trouve dans le bloc body, contenu doit être placé dans 1 certain bloc#}
+    {#Surcharge de blocks: On projète du contenu dns les différents blocks du template#}
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta charset="utf-8" />
+	<link href="css/styly.css" rel="stylesheet" />
+	<title>SAINT PAUL DU TERRAY</title>
+</head>
+
+<body class="body">
+
+<main class="main">
+		<left class="left">
+			<h2>Madame, Monsieur,</h2>
+			<p>
+				Votre enfant va partir durant l'ann&eacute;e scolaire en classe de d&eacute;couverte.
+				<br />Une participation financiÃ¨re par enfant va prochainement vous Ãªtre demand&eacute;e.
+				<br /><br />Cette ann&eacute;e le conseil municipal a d&eacute;cid&eacute; d'instaurer trois types de r&eacute;ductions
+				et un plafonnement &agrave; 100 Euros par enfant.
+			</p>
+			<br />
+			<ul>
+				<li>R&eacute;duction de 10% si le Quotient Familial est inf&eacute;rieur &agrave; 500 Euros</li>
+				<li>R&eacute;duction de 20% pour famille de 2 enfants</li>
+				<li>R&eacute;duction de 40% pour famille de 3 enfants ou plus</li>
+			</ul>
+		</left>
+
+	<noscreen/>
+
+		<right class="right">
+			<h2>Simulation</h2>
+			<fielset>
+			
+			</fielset>
+			<!-- <h2>Liste des s&eacute;jours pr&eacute;vus </h2>
+			<fieldset>
+			<?php
+			$bdd = new PDO('mysql:host=localhost;dbname=bdstpaul;charset=utf8', 'root');
+			$sejours = $bdd->query('select * from sejour order by sejno');
+			foreach ($sejours as $sejour): ?>
+				<sejour>
+					<h2><p><?php echo $sejour['SEJINTITULE'] ?></p></h2>
+					<?php echo $sejour['SEJMONTANTMBI'].'â‚¬' ?><BR/>
+					<?php echo 'A partir du '.$sejour['SEJDTEDEB'] ?>
+					<?php echo $sejour['SEJDUREE'].' nuits' ?>
+				</sejour>
+			<?php endforeach ?>
+			</fieldset>-->
+		</right>
+</main>
+
+
+</body>
+	
+
+{% endblock %}
