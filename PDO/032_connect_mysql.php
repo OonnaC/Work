@@ -1,9 +1,9 @@
 <?php
-	$hote='SRVORA01'; //'localhost';    // le chemin vers le serveur
-	$port='1521';//'3307';
-	$nom_bd='Mesguen';        // le nom de votre base de données
-	$utilisateur='u_mesguen';//'root';  // nom d'utilisateur pour se connecter
-	$mot_passe='estran';//''        // mot de passe de l'utilisateur 
+	$hote='localhost';    // le chemin vers le serveur
+	$port='3307';
+	$nom_bd='crudajax';        // le nom de votre base de données
+	$utilisateur='root';  // nom d'utilisateur pour se connecter
+	$mot_passe='';        // mot de passe de l'utilisateur 
 	
 	// ceation du Data Source Name, ou DSN, qui contient les infos
 	// requises pour se connecter à la base.
