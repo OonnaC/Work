@@ -5,7 +5,7 @@
 	// on prépare notre requête
 	$prep=$connexion->prepare($sql); 
 	//  on associe les valeurs aux place holders
-	$prep->bindValue(':uneValeur', 'test2', PDO::PARAM_STR);
+	$prep->bindValue(':uneValeur', 'LeGuen', PDO::PARAM_STR); //'test'
 	// on execute la requête
 	$prep->execute();
 	//compte le nombre de resultats
@@ -17,7 +17,7 @@
 			echo "Information : ".$row['login']." <br />";
 		}	
 	} else {
-		echo "Aucun résultat...";
+		echo "Aucun r&eacute;sultat...";
 	}	
 	
 	// Fermeture de la connexion

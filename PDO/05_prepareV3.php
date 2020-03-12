@@ -1,7 +1,7 @@
  <?php
 	include 'connect.php';
 	
-	$sql="SELECT * FROM user WHERE login = ?";
+	$sql="SELECT * FROM user WHERE login = 'oonna'";
 	// on prépare notre requête
 	$prep=$connexion->prepare($sql); 
 	
@@ -18,7 +18,7 @@
 	}	
 	
 
-	echo "<br />***2***<br />";
+	echo "<br />***2020***<br />";
 	
 	
 	// execution de la même requête avec un paramètre différent
