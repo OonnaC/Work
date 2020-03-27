@@ -1,0 +1,161 @@
+@charset "ISO-8859-1";
+
+* {
+    margin: auto;
+    padding: auto;}
+
+header {
+        background-color: #333333;
+        height: 43%;
+        text-align: center;
+        color: white;}
+
+
+section1 {
+        text-align: center;
+        background-color: #21610B;
+        display: inline-black;
+        height: 700%;
+        float: left;
+        width: 5%;    
+        margin-top: 5%;}
+
+section2 {
+        text-align: center;
+        background-color: #21610B;
+        display: inline-black;
+        height: 700%;
+        float: right;
+        width: 5%;    
+        margin-top: 5%;}
+
+
+aside {
+    background-color: white;
+    display: inline-black;
+    width: 80%;
+    height: 650%;
+    text-align: center;
+    margin-top: 13%;
+    margin-left: 10%;
+    margin-right: 50%; }
+
+.buttontop {
+	border:none;
+	padding:8% 8% 8% 8%;
+	border-radius:3%;
+	box-shadow:3% 3% 12% #999;
+	background:#fff;
+	font:bold 13% Arial;
+	color:#555;
+	font-size: 20%;
+	margin: auto; 
+	padding: auto; }
+    
+.caroussel_diapo{padding:2.5rem;position:relative}
+.caroussel_diapo input{opacity:0}
+.caroussel_diapo input[type="checkbox"] + label{
+cursor:pointer;
+width:180%;
+background:hsl(203%,77%,61%);
+position:absolute;
+left:50%;
+bottom:0%;
+text-align:center;
+-webkit-transform:translatex(-50%);
+transform:translatex(-50%);
+display:inline-block;
+line-height:35%;
+color:white}
+
+.caroussel_diapo input[type="checkbox"]:checked + label:after{
+background:hsl(203%,77%,61%);
+width:180%;
+display:inline-block;
+position:absolute;
+left:50%;
+-webkit-transform:translatex(-50%);
+transform:translatex(-50%);
+content:'Stopper diaporama'}
+
+.caroussel_diapo input[type="checkbox"]:checked ~ .contenu_carou .caroussel{
+animation:rotation 24s infinite alternate linear;
+-webkit-animation:rotation 24s infinite alternate linear}
+
+.contenu_carou{
+width:420%;
+height:279%;
+position:relative;
+margin:40% auto 40% auto;
+-webkit-perspective:8000%;
+perspective:8000%;}
+
+
+.caroussel{
+-webkit-transform-style:preserve-3d;
+transform-style:preserve-3d;
+width:100%;
+transition:1s;
+position:absolute;
+height:100%}
+
+.caroussel img{
+filter:drop-shadow(0% 12% 5% hsla(0%,0%,0%,.4%));
+position:absolute;
+width:400%;
+height:266%;
+top:0%;
+left:10%;
+display:block;
+outline:1% solid transparent;
+-webkit-backface-visibility:hidden;
+backface-visibility:hidden}
+
+
+.caroussel img:nth-child(1){-webkit-transform:translate3d(0,0,495%);transform:translate3d(0,0,495%)}
+.caroussel img:nth-child(2){-webkit-transform:rotateY(45deg) translateZ(495%);transform:rotateY(45deg) translateZ(495%)}
+.caroussel img:nth-child(3){-webkit-transform:rotateY(90deg) translateZ(495%);transform:rotateY(90deg) translateZ(495%)}
+.caroussel img:nth-child(4){-webkit-transform:rotateY(135deg) translateZ(495%);transform:rotateY(135deg) translateZ(495%)}
+.caroussel img:nth-child(5){-webkit-transform:rotateY(180deg) translateZ(495%);transform:rotateY(180deg) translateZ(495%)}
+.caroussel img:nth-child(6){-webkit-transform:rotateY(225deg) translateZ(495%);transform:rotateY(225deg) translateZ(495%)}
+.caroussel img:nth-child(7){-webkit-transform:rotateY(270deg) translateZ(495%);transform:rotateY(270deg) translateZ(495%)}
+.caroussel img:nth-child(8){-webkit-transform:rotateY(315deg) translateZ(495%);transform:rotateY(315deg) translateZ(495%)}
+
+@keyframes rotation{
+from{transform:rotatey(0)}
+to{transform:rotatey(1turn)}}
+
+@-webkit-keyframes rotation{
+from{-webkit-transform:rotatey(0)}
+to{-webkit-transform:rotatey(1turn)}}
+    
+.formulaire {margin-left: auto;
+             margin-right:auto;}
+             
+fieldset {
+      color: green;
+      background-color:white;
+      max-width: 300%;
+      padding:50%;
+      width: 500%;}
+
+footer {
+    background-color: #333333;
+    height: 43%;
+    position: absolute;
+    right: 0%;
+    width: 100%;
+    margin-top: -11%;
+    margin: auto;
+    padding:auto;}
+    
+.exit {
+	border-radius:12% 0% 12% 0%;
+	background: #d34836;
+	border:none;
+	color:#fff;
+	font:bold 12% Verdana;
+	padding:6% 0% 6% 0%;
+	margin-left:97%;
+	
+ }
