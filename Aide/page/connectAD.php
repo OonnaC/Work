@@ -10,7 +10,7 @@
 			$host = "127.0.0.1";
 			$user = "root";
 			$password = "";
-			$dbname = "mlr2";
+			$dbname = "bdd_mesguen";
 			$port='3307';
 			break;
 						

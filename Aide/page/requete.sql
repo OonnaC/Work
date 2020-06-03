@@ -45,3 +45,10 @@ ERREUR SQL : 20 Sep 2019 - 11:53:12.000000 --> SELECT TRNNUM,TRNDTE,CHFNOM,VEHIM
 ERREUR SQL : 20 Sep 2019 - 11:53:16.000000 --> SELECT TRNNUM,TRNDTE,CHFNOM,VEHIMMAT 
 							FROM tournee,chauffeur 
 							WHERE tournee.CHFID=chauffeur.CHFID; : () 
+ERREUR SQL : 2 Jun 2020 - 14:14:53.000000 --> SELECT TRNNUM,TRNDTE,CHFNOM,VEHIMMAT 
+							FROM tournee,chauffeur 
+							WHERE tournee.CHFID=chauffeur.CHFID; : () 
+ERREUR SQL : 2 Jun 2020 - 14:19:32.000000 --> SELECT TRNNUM,TRNDTE,CHFNOM,VEHIMMAT 
+							FROM tournee,chauffeur 
+							WHERE tournee.CHFID=chauffeur.CHFID; : (Table 'mesguen.tournee' doesn't exist) 
+ERREUR SQL : 2 Jun 2020 - 14:23:28.000000 --> SELECT CHFNOM FROM chauffeur : (Table 'mesguen.chauffeur' doesn't exist) 

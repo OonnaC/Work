@@ -9,7 +9,7 @@
  *
  * Test PHP7 avec EasyPHP 17 DevEnv en 64 bits
  * Utilisation de code sniffer
- * Bug MYSQL_BOTH --> 
+ * Bug MYSQL_BOTH -->
  * Bug avec PDO
  *
  */
@@ -77,8 +77,8 @@ function dateVersion()
 
 
 
-  /////////////////////////////////////////////////////////////////////////
- ////////// AJOUTER LES PRIMITIVES D'ACCES AUX BASES DE DONNEES //////////
+/////////////////////////////////////////////////////////////////////////
+////////// AJOUTER LES PRIMITIVES D'ACCES AUX BASES DE DONNEES //////////
 /////////////////////////////////////////////////////////////////////////
 /**
  * Ouvre une connexion a un serveur de base de donnees et selectionne une base.
@@ -223,15 +223,15 @@ function cnxserveur($host, $port, $user, $password)
         }
         @$link = flase;
     }
-
+    
     if ($modeacces=="mysql") {
         @$link = mysql_connect("$host:$port", "$user", "$password");
     }
-
+    
     if ($modeacces=="mysqli") {
         @$link = mysqli_connect($host, $user, $password);
     }
-
+    
     if (!$link) {
         return false;
     } else {
@@ -252,16 +252,16 @@ function cnxserveur($host, $port, $user, $password)
 function selectDB($dbname)
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         //$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $connexion->exec("use ".$dbname);
     }
-
+    
     if ($modeacces=="mysql") {
         return (@$connexion = mysql_select_db("$dbname"));
     }
-
+    
     if ($modeacces=="mysqli") {
         return (mysqli_select_db($connexion, $dbname));
     }
@@ -275,15 +275,15 @@ function selectDB($dbname)
 function deconnexion()
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         @$connexion=null;
     }
-
+    
     if ($modeacces=="mysql") {
         @mysql_close();
     }
-
+    
     if ($modeacces=="mysqli") {
         @mysqli_close($connexion);
     }
@@ -302,17 +302,17 @@ function deconnexion()
 function protectSQL($sql)
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         //protect SQL ne sert a rien en PDO
         //utiliser les requetes preparees
         return $sql;
     }
-
+    
     if ($modeacces=="mysql") {
         return mysql_real_escape_string($sql);
     }
-
+    
     if ($modeacces=="mysqli") {
         return mysqli_real_escape_string($connexion, $sql);
     }
@@ -335,9 +335,9 @@ function protectSQL($sql)
 function executeSQL($sql)
 {
     global $modeacces, $connexion, $logsql;
-
+    
     $uneChaine = date("j M Y - G:i:s --> ").$sql."\r\n";
-
+    
     if ($logsql=="all") {
         ecritRequeteSQL($uneChaine);
     } else {
@@ -348,7 +348,7 @@ function executeSQL($sql)
             }
         }
     }
-
+    
     if ($modeacces=="pdo") {
         $result = $connexion->query($sql)
         or die(afficheErreur($sql));
@@ -358,14 +358,14 @@ function executeSQL($sql)
         $result = mysql_query($sql)
         or die(afficheErreur($sql));
     }
-
+    
     if ($modeacces=="mysqli") {
         $result = mysqli_query($connexion, $sql)
         or die(afficheErreur($sql));
         //or die (afficheErreur($sql, mysqli_error_list($connexion)[0]['error']));
         //or die (afficheErreur($sql, $connexion->error_list[0]['error']));
     }
-
+    
     return $result;
 }
 
@@ -386,19 +386,19 @@ function executeSQL($sql)
 function executeSQL_GE($sql)
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         $result = $connexion->query($sql);
     }
-
+    
     if ($modeacces=="mysql") {
         $result = mysql_query($sql);
     }
-
+    
     if ($modeacces=="mysqli") {
         $result = mysqli_query($connexion, $sql);
     }
-
+    
     return $result;
 }
 
@@ -425,30 +425,30 @@ function executeSQL_GE($sql)
 function tableSQL($sql)
 {
     global $modeacces;
-
+    
     $result = executeSQL($sql);
     $rows = array();
-
+    
     if ($modeacces=="pdo") {
         //while ($row = $result->fetch(PDO::FETCH_BOTH)) {
         //array_push($rows,$row);
         //}
         $rows = $result->fetchAll(PDO::FETCH_BOTH);
     }
-
+    
     if ($modeacces=="mysql") {
         while ($row = mysql_fetch_array($result, MYSQL_BOTH)) {
             array_push($rows, $row);
         }
     }
-
+    
     if ($modeacces=="mysqli") {
         while ($row = mysqli_fetch_array($result, )) {
             array_push($rows, $row);
         }
         //$rows = $result->fetch_all();
     }
-
+    
     return $rows;
 }
 
@@ -465,7 +465,7 @@ function tableSQL($sql)
 function compteSQL($sql)
 {
     global $modeacces, $connexion, $typebase;
-
+    
     if ($modeacces=="pdo") {
         if ($typebase=="mysql") {
             $repueteP = $connexion->prepare($sql);
@@ -478,17 +478,17 @@ function compteSQL($sql)
             $num_rows = sizeof($fields);
         }
     }
-
+    
     if ($modeacces=="mysql") {
         $result = executeSQL($sql);
         $num_rows = mysql_num_rows($result);
     }
-
+    
     if ($modeacces=="mysqli") {
         $result = executeSQL($sql);
         $num_rows = mysqli_num_rows($result);
     }
-
+    
     return $num_rows;
 }
 
@@ -504,21 +504,21 @@ function compteSQL($sql)
 function champSQL($sql)
 {
     global $modeacces;
-
+    
     $result = executeSQL($sql);
-
+    
     if ($modeacces=="pdo") {
         $rows = $result->fetch(PDO::FETCH_BOTH);
     }
-
+    
     if ($modeacces=="mysql") {
         $rows = mysql_fetch_array($result, MYSQL_NUM);
     }
-
+    
     if ($modeacces=="mysqli") {
         $rows = mysqli_fetch_array($result, MYSQLI_NUM);
     }
-
+    
     return $rows[0];
 }
 
@@ -544,21 +544,21 @@ function champSQL($sql)
 function ligneSQL($sql)
 {
     global $modeacces;
-
+    
     $result = executeSQL($sql);
-
+    
     if ($modeacces=="pdo") {
         $rows = $result->fetch(PDO::FETCH_BOTH);
     }
-
+    
     if ($modeacces=="mysql") {
         $rows = mysql_fetch_array($result, MYSQL_BOTH);
     }
-
+    
     if ($modeacces=="mysqli") {
         $rows = mysqli_fetch_array($result, );
     }
-
+    
     return $rows;
 }
 
@@ -575,7 +575,7 @@ function ligneSQL($sql)
 function nombreChamp($sql)
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         //utilisation d'une requete preparee
         $requeteP = $connexion->prepare($sql);
@@ -583,12 +583,12 @@ function nombreChamp($sql)
         $num_rows = $requeteP->columnCount();
         return $num_rows;
     }
-
+    
     if ($modeacces=="mysql") {
         $result = executeSQL($sql);
         return mysql_num_fields($result);
     }
-
+    
     if ($modeacces=="mysqli") {
         $result = executeSQL($sql);
         return mysqli_num_fields($result);
@@ -618,7 +618,7 @@ function nomChamp($sql, $field_offset)
      *    $meta = $select->getColumnMeta($field_offset);
      *    return ($meta["name"]);
      */
-
+    
     if ($modeacces=="pdo") {
         if ($typebase=="mysql") {
             $select = $connexion->query($sql);
@@ -661,9 +661,9 @@ function nomChamp($sql, $field_offset)
 function typeChamp($sql, $field_offset)
 {
     global $modeacces, $connexion, $mysql_data_type_hash, $typebase;
-
+    
     $result = executeSQL($sql);
-
+    
     if ($modeacces=="pdo") {
         //recupere le  nom de la table
         $posfrom = strpos(strtoupper($sql), "FROM");
@@ -673,7 +673,7 @@ function typeChamp($sql, $field_offset)
         //gestion des , plusieurs tables
         $nomtables = explode(',', $nomtable);
         $nomtable = trim($nomtables[0]);
-
+        
         if ($typebase=="mysql") {
             //$select = $connexion->query($sql);
             //$meta = $select->getColumnMeta($field_offset);
@@ -684,7 +684,7 @@ function typeChamp($sql, $field_offset)
             $fields = $recordset->fetchAll(PDO::FETCH_ASSOC);
             $letype = ($fields[$field_offset]["Type"]);
         }
-
+        
         if ($typebase=="oracle") {
             $nomDuChamp = nomChamp($sql, $field_offset);
             $sqlD =" SELECT data_type
@@ -692,7 +692,7 @@ function typeChamp($sql, $field_offset)
 			WHERE COLUMN_NAME='$nomDuChamp' AND TABLE_NAME='$nomtable'";
             $letype =  champSQL($sqlD);
         }
-
+        
         // harmonisation entre les differents types des bases de donnees
         if (stristr($letype, 'varchar')!=false) {
             $letype="string";
@@ -709,14 +709,14 @@ function typeChamp($sql, $field_offset)
         if (stristr($letype, 'date')!=false) {
             $letype="date";
         }
-
+        
         return $letype;
     }
-
+    
     if ($modeacces=="mysql") {
         return mysql_field_type($result, $field_offset);
     }
-
+    
     if ($modeacces=="mysqli") {
         //transforme l'objet renvoye par mysqli_fetch_field_direct en tableau
         $infos = (array)mysqli_fetch_field_direct($result, $field_offset);
@@ -738,7 +738,7 @@ function typeChamp($sql, $field_offset)
 function versionBase()
 {
     global $typebase;
-
+    
     if ($typebase=="mysql") {
         return "Mysql - Version ".versionMYSQL();
     }
@@ -759,15 +759,15 @@ function versionBase()
 function versionMYSQL()
 {
     global $modeacces, $connexion;
-
+    
     if ($modeacces=="pdo") {
         return $connexion->getAttribute(constant("PDO::ATTR_SERVER_VERSION"));
     }
-
+    
     if ($modeacces=="mysql") {
         return mysql_get_server_info();
     }
-
+    
     if ($modeacces=="mysqli") {
         return mysqli_get_server_info($connexion);
     }
@@ -789,8 +789,8 @@ function versionOracle()
     return $version;
 }
 
-  /////////////////////////////////////////////////////////////////////////
- ////////////////////////// FIN DES MODIFICATIONS ////////////////////////
+/////////////////////////////////////////////////////////////////////////
+////////////////////////// FIN DES MODIFICATIONS ////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 
@@ -814,7 +814,7 @@ function adresseIPV4($uneAdresse)
     } else {
         $ip = $uneAdresse;
     }
-
+    
     return $ip;
 }
 
@@ -828,7 +828,7 @@ function adresseIPV4($uneAdresse)
 function info($dbname)
 {
     global $modeacces, $typebase;
-
+    
     echo "<br />Base : ". $dbname." <br />";
     echo "Mode acces : ".$modeacces."<br />";
     echo "Type base : ".versionBase()."<br />";
@@ -878,9 +878,9 @@ function afficheErreur($sql)
 {
     $erreur = erreurSQL();
     $uneChaine = "ERREUR SQL : ".date("j M Y - G:i:s.u --> ").$sql." : ($erreur) \r\n";
-
+    
     ecritRequeteSQL($uneChaine);
-
+    
     return "<br />Erreur SQL de <b>".$_SERVER["SCRIPT_NAME"].
     "</b>.<br />Dans le fichier : ".__FILE__.
     " a la ligne : ".__LINE__.
@@ -913,7 +913,7 @@ function ecritRequeteSQL($sql)
 function nomBase()
 {
     global $modeacces;
-
+    
     $sql = "SELECT DATABASE()";
     return champSQL($sql);
 }
@@ -929,7 +929,7 @@ function afficheRequete($sql)
 {
     $results = tableSQL($sql);
     $nbchamps = nombreChamp($sql);
-
+    
     echo "<pre><table style=\"border: 2px solid blue; border-collapse: collapse; \">";
     echo "   <caption style=\"color:green;font-weight:bold\">$sql</caption>
 	<tr style=\"border: 2px solid blue; border-collapse: collapse; \" >";
@@ -938,7 +938,7 @@ function afficheRequete($sql)
         echo "(".typeChamp($sql, $i).")</th>";
     }
     echo "   </tr>";
- 
+    
     foreach ($results as $ligne) {
         echo "<tr style=\"border: 1px solid red; border-collapse: collapse; \">";
         //on extrait chaque valeur de la ligne courante
@@ -972,7 +972,7 @@ function afficheRequete($sql)
 function export($mode, $repertoire, $nomfichier)
 {
     global $modeacces, $dbname;
-
+    
     date_default_timezone_set('Europe/Paris');
     // --- La setlocale() fonctionnne pour strftime mais pas pour DateTime->format()
     setlocale(LC_TIME, 'fr_FR.utf8', 'fra');// OK
@@ -983,31 +983,31 @@ function export($mode, $repertoire, $nomfichier)
     $entete  = "-- ----------------------\n";
     $entete .= "-- Dump de la base ".$dbname." du ".$datefr."\n";
     $entete .= "-- ----------------------\n";
-
+    
     $creations = "";
     $insertions = "\n\n";
-
+    
     $sql = "show tables";
     $results = tableSQL($sql);
-
+    
     foreach ($results as $ligne) {
         //on extrait chaque valeur de la ligne courante
         $table = $ligne[0];
-
+        
         // structure de la table
         $creations .= "-- -----------------------------\n";
         $creations .= "-- Structure de la table ".$table."\n";
         $creations .= "-- -----------------------------\n";
-
+        
         $sql1 = "show create table ".$table;
         $requetes = ligneSQL($sql1);
-
+        
         $creations .= $requetes[1].";\n";
-
+        
         // donnees de la table
         $sql2 = "SELECT * FROM ".$table;
         $results2 = tableSQL($sql2);
-
+        
         $insertions .= "-- -----------------------------\n";
         $insertions .= "-- Contenu de la table ".$table."\n";
         $insertions .= "-- -----------------------------\n";
@@ -1038,9 +1038,9 @@ function export($mode, $repertoire, $nomfichier)
         }
         $insertions .= "\n";
     }
-
+    
     $chret="";
-
+    
     if ($repertoire==null) {
         $repertoire = ".";
     }
@@ -1049,21 +1049,21 @@ function export($mode, $repertoire, $nomfichier)
         $info = date("dMy(H-i-s)");
         $nomfichier = $dbname."_".$info.".sql";
     }
-
+    
     $nf =  $repertoire."/".$nomfichier;
     $fichierDump = fopen($nf, "w");
     fwrite($fichierDump, $entete);
     $chret .= "Entete $dbname sauvegardee...<br />";
     if ($mode=='S' or $mode=='A') {
-         fwrite($fichierDump, $creations);
-         $chret .= "Structure de la base $dbname sauvegardee...<br />";
+        fwrite($fichierDump, $creations);
+        $chret .= "Structure de la base $dbname sauvegardee...<br />";
     }
     if ($mode=='D' or $mode=='A') {
         fwrite($fichierDump, $insertions);
         $chret .= "Donnees de la base $dbname sauvegardee...<br />";
     }
     fclose($fichierDump);
-
+    
     return $chret;
 }
 
@@ -1138,17 +1138,17 @@ function sauvegardeDonnees()
 function import($mode, $fichier, $dbname)
 {
     global $modeacces;
-
+    
     //quelques informations importantes
     $ipsrv = $_SERVER['SERVER_ADDR'];
     $versionPHP = getenv("SERVER_SOFTWARE");
     $namesrv = $_SERVER['SERVER_NAME'];
-
+    
     //on utilise la base de donnees
     $sql = "USE `$dbname`";
     //echo "<br />SQL : $sql<br>";
     $result = executeSQL_GE($sql);
-
+    
     if ($result) {
         //si la basee existe
         $sql = "SHOW tables";
@@ -1160,10 +1160,10 @@ function import($mode, $fichier, $dbname)
                 //on supprime toutes les tables
                 $sql = "DROP TABLE `$nomTable`";
             } else {
-                    //on vide toutes les tables
-                    $sql = "TRUNCATE `$nomTable`";
-                    //echo "<br />SQL : $sql<br>";
-                    $result = executeSQL($sql);
+                //on vide toutes les tables
+                $sql = "TRUNCATE `$nomTable`";
+                //echo "<br />SQL : $sql<br>";
+                $result = executeSQL($sql);
             }
         }
     } else {
@@ -1176,21 +1176,21 @@ function import($mode, $fichier, $dbname)
         //echo "<br />SQL : $sql<br>";
         $result = executeSQL_GE($sql);
     }
-
+    
     //desactive les cle etrangere pour pouvoir effacer les tables de la base
     $sql = "SET FOREIGN_KEY_CHECKS = 0";
     $result = executeSQL($sql);
     //echo "<br />SQL : $sql<br>";
-
+    
     $versionMySQL=versionMYSQL();
-
+    
     //restaure la base en fonction du fichier creer par le dump (V2)
     //Lit le fichier et renvoie le resultat dans un tableau
     $lines = file($fichier);
     $versionBase = $lines[1];
-
+    
     $sql="";
-
+    
     //execute toutes les requetes du fichier de dump
     for ($i=0; $i<count($lines); $i++) {
         $line=$lines[$i];
@@ -1205,15 +1205,15 @@ function import($mode, $fichier, $dbname)
             }
         }
     }
-
+    
     //reactive les cle etrangere la base
     $sql = "SET FOREIGN_KEY_CHECKS = 1";
     $result = executeSQL($sql);
     //echo "<br />SQL : $sql<br>";
-
+    
     $versionBase = substr($versionBase, 23+strlen($dbname), strlen($versionBase)-23-strlen($dbname));
     $versionBase = str_replace("a", "<br />", $versionBase);
-
+    
     //retourne les infos
     return "<font color=green> Version base  $dbname <br /> $versionBase <br />$namesrv(IP : $ipsrv)<br />
 	$versionPHP<br />MySQL : $versionMySQL</font>";

@@ -1,44 +1,41 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Accueil</title>
+        <title>Projet MESGUEN</title>
         <link rel="stylesheet" type="text/css" href="css/mesguen.css"/>
+        
     </head>
     <body>
-  
-        <header>
-		<img src="image/Mesguen.jpg">
-		</header>
-		
-		<a class="connect" href="connexion.php">S'identifier</a>
+    
+  <header><img src="image/Mesguen.jpg"></header>
         
-        
-            <section1></section1>
+           <section1></section1>
             <section2></section2>
             
         <aside>
-        		
-    	<div class='caroussel_diapo'>
-            <input id="play" type="checkbox">
-            <label for="play">Bienvenue</label>
-        <div class="contenu_carou">
-        <div class="caroussel">
-            <img src="image/1.jpg" alt>
-            <img src="image/2.jpg" alt>
-            <img src="image/3.jpg" alt>
-            <img src="image/4.jpg" alt>
-            <img src="image/1.jpg" alt>
-            <img src="image/2.jpg" alt>
-            <img src="image/3.jpg" alt>
-            <img src="image/4.jpg" alt>
-        </div>
-        </div>
-        </div>
-        </aside>
-      	
-        <footer>
-    
-        </footer>
+        <div class ="formulaire">
+            <fieldset>
+                <legend>Connexion</legend>
+                <form action="admin.php" method="post">
+                    <p>Identifiant : <input type="text" name="pseudo" /></p> <br/>
+                    <p>Mot de passe : <input type="password" name="mdp" /></p> <br/>
+                    <p><input type="submit" value="Connexion"></p> <br/>
+                    
+                    <?php
+                    if(isset($_GET ['message'])){
+                        echo $_GET['message'];
+                    }
+                    else {
+                        echo "&nbsp;";
+                    }
+                    ?>
+                    
+                </form>
+           </fieldset>
+           </div>
+ 		 </aside>
         
+        <footer> </footer>
+       
     </body>
 </html>

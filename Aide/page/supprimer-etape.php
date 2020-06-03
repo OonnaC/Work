@@ -12,7 +12,7 @@
 	$result = executeSQL($sql);
 
 	if ($result)
-			echo "<meta http-equiv='refresh' content='0;url=AC11.php?message=<font color=green> Suppression rÃ©alisÃ©e ! </font>'>";
+			echo "<meta http-equiv='refresh' content='0;url=AC11.php?message=<font color=green> Suppression réalisée ! </font>'>";
         else
-			echo "<meta http-equiv='refresh' content='0;url=AC11.php?message=<font color=red> ProblÃ¨me de suppression ... </font>'>";
+			echo "<meta http-equiv='refresh' content='0;url=AC11.php?message=<font color=red> Problème de suppression ... </font>'>";
 ?>

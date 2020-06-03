@@ -11,8 +11,8 @@
     <section1></section1>
     <section2></section2>
     <aside>
-     <h1>Liste des tournÃ©es</h1>
-		<!-- crÃ©ation du tableau des tourÃ©e  --> 
+     <h1>Liste des tournées</h1>
+		<!-- création du tableau des tourée  --> 
 		<div class="tableau">
 			<table>
 				<thead>
@@ -30,10 +30,10 @@
 				</thead>
 
 				<?php
-					//insertion de la connection a la base de donnÃ©es 
+					//insertion de la connection a la base de données 
 					include 'connectAD.php';
 					
-					//selection les infos pour la tournÃ©e 
+					//selection les infos pour la tournée 
 					$sql = "SELECT TRNNUM,TRNDTE,CHFNOM,VEHIMMAT 
 							FROM tournee,chauffeur 
 							WHERE tournee.CHFID=chauffeur.CHFID;";
@@ -44,7 +44,7 @@
 						while ($row = mysqli_fetch_array($result)) {
 				?>
 					
-				<!-- creation des ligne des tournÃ©e --> 
+				<!-- creation des ligne des tournée --> 
 					<tr class="ligne-interne">
 						<td><?php echo $row['TRNNUM']; ?></td>
 						<td><?php echo $row['TRNDTE']; ?></td>

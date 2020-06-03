@@ -11,7 +11,7 @@
 <section1></section1>
 <section2></section2>
 <aside>
-    <h1>Ajout de tournée</h1>
+    <h1>Ajout de tourn�e</h1>
     <hr />
     <br />
     <br />
@@ -56,7 +56,7 @@
             <br />
             <br />
 
-            <label for="voiture">Véhicule :</label>
+            <label for="voiture">V�hicule :</label>
 
             <?php
 				$sql = "SELECT VEHIMMAT FROM vehicule";
@@ -144,7 +144,7 @@
 						echo"</tr>";	
 					}
 				} else {
-					//selection l'id de la nouvelle tournÃ©e
+					//selection l'id de la nouvelle tournée
 					$sql = "SELECT max(TRNNUM) FROM tournee";
 						
 					$result = executeSQL($sql);

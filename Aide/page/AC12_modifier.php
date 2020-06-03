@@ -196,7 +196,7 @@
 					echo"<td><img src=\"../image/modif02.png\" alt=\"erreur\" onclick=\"location.href='./AC13M.php'\" style=\"cursor:pointer;\" ></td>";
 					echo"</tr>";
 				}
-    		?>
+    		    ?>
 
             </table>
 
@@ -211,7 +211,7 @@
 				echo $_GET['message'];
 			else
 				echo "&nbsp;";
-		?>
+		    ?>
             <div />
 </aside>
 <footer>

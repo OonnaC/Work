@@ -42,3 +42,4 @@ API_test/src/Google/Task/Exception.php
 API_test/src/Google/Task/Retryable.php
 API_test/src/Google/Task/Runner.php
 API_test/src/Google/Utils/UriTemplate.php
+/.metadata/
