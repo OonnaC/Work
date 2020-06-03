@@ -22,19 +22,19 @@ section1 {
 	        text-align: center;
 	        background-color: #21610B;
 	        display: inline-black;
-	        height: 800px;
+	        height: 950px;
 	        float: left;
 	        width: 5%;    
-	        margin-top: 2%; }
+	        margin-top: 0%; }
 
 section2 {
 	        text-align: center;
 	        background-color: #21610B;
 	        display: inline-black;
-	        height: 800px;
+	        height: 950px;
 	        float: right;
 	        width: 5%;    
-	        margin-top: 2%; }
+	        margin-top: 0%; }
 
 
 aside {
@@ -155,17 +155,22 @@ fieldset {
       color: green;
       background-color:white;
       max-width: 300px;
-      padding:45px;
-      width: 500px; }
+      padding:30px;
+      width: 500px;
+      border: 1px solid #6B8E23; }
+      
+input {
+	border-radius: 5px;
+}
 
 footer {
     background-color: #333333;
-    height: 43px;
+    height: 55px;
     position: absolute;
-    right: 3%;
+    right: 0%;
     width: 100%;
     margin-top: auto;
-    margin: -3%;
+    margin: 0%;
     padding:auto; }
     
 .exit {

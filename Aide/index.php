@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html>
-    <head>
+    <head >
         <title>Projet MESGUEN</title>
         <link rel="stylesheet" type="text/css" href="css/mesguen.css"/>
         
@@ -16,9 +16,11 @@
         <div class ="formulaire">
             <fieldset>
                 <legend>Connexion</legend>
-                <form action="admin.php" method="post">
-                    <p>Identifiant : <input type="text" name="pseudo" /></p> <br/>
-                    <p>Mot de passe : <input type="password" name="mdp" /></p> <br/>
+                <form action="page/AC11.php" method="post">
+                    <p>Identifiant : </p>
+                    <input type="text" name="pseudo" /> <br/><br/>
+                    <p>Mot de passe : </p>
+                    <input type="password" name="mdp" /> <br/><br/>
                     <p><input type="submit" value="Connexion"></p> <br/>
                     
                     <?php
@@ -35,7 +37,10 @@
            </div>
  		 </aside>
         
-        <footer> </footer>
+        <footer>
+            <br />
+            <p>&copy; Mesguen 2019. All rights reserved.</p>
+    	</footer>
        
     </body>
 </html>

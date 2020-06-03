@@ -7,11 +7,15 @@
 		<title>MESGUEN - AC11</title>
 	</head>
 	<body>
+	<?php
+    if (isset($_POST['mdp']) AND $_POST['mdp'] ==  "Iroise29")
+    {
+    ?>
 	<header><img src="../image/Mesguen.jpg"></header>
     <section1></section1>
     <section2></section2>
     <aside>
-     <h1>Liste des tournées</h1>
+     <h1>Liste des tourn&eacute;es</h1>
 		<!-- création du tableau des tourée  --> 
 		<div class="tableau">
 			<table>
@@ -115,9 +119,25 @@
 					echo "&nbsp;";
 				
 		?>
+		<input id="back" type="button" name="ajouter" value="Ajouter" onclick="location.href='AC12.php'" />
+		<?php 
+		
+			if (isset($_GET['message']))
+				echo $_GET['message'];
+				else
+					echo "&nbsp;";
+				
+		?>
 		</aside>
         <footer>
-        
+            <br />
+            <p>&copy; Mesguen 2019. All rights reserved.</p>
         </footer>
+        <?php
+    }
+    else print "<meta http-equiv='refresh' content='0;url=connexion.php?message=<font color=red> Mot de passe incorrect </font>'>";
+    {
+    }
+    ?>
     </body>
 </html>

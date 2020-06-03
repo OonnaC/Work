@@ -7,7 +7,7 @@
     <body>
     
 	<?php
-    if (isset($_POST['mdp']) AND $_POST['mdp'] ==  "phicorp29")
+    if (isset($_POST['mdp']) AND $_POST['mdp'] ==  "Iroise29")
     {
     ?>
     

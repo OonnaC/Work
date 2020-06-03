@@ -12,23 +12,22 @@ header {
 
 
 section1 {
-        text-align: center;
-        background-color: #21610B;
-        display: inline-black;
-        height: 800px;
-        float: left;
-        width: 5%;    
-        margin-top: 2%;}
+	        text-align: center;
+	        background-color: #21610B;
+	        display: inline-black;
+	        height: 950px;
+	        float: left;
+	        width: 5%;    
+	        margin-top: 0%; }
 
 section2 {
-        text-align: center;
-        background-color: #21610B;
-        display: inline-black;
-        height: 800px;
-        float: right;
-        width: 5%;    
-        margin-top: 2%;}
-
+	        text-align: center;
+	        background-color: #21610B;
+	        display: inline-black;
+	        height: 950px;
+	        float: right;
+	        width: 5%;    
+	        margin-top: 0%; }
 
 aside {
     background-color: white;
@@ -48,7 +47,7 @@ table{
     background-color: #21610B; }
 
 .ligne-interne{
-    background-color: #BBB; }
+    background-color: white; }
 
 
 th{
@@ -58,6 +57,7 @@ th{
 td, th{
     border : 1px solid black;
     padding: 10px 15px; }
+    
 
 .back {
 	border-radius:12px 0 12px 0;
@@ -71,12 +71,12 @@ td, th{
 
 footer {
     background-color: #333333;
-    height: 43px;
+    height: 55px;
     position: absolute;
-    right: 3%;
+    right: 0%;
     width: 100%;
     margin-top: auto;
-    margin: -3%;
+    margin: 0%;
     padding:auto; }
 
 #conteneur {

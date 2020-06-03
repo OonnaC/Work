@@ -52,3 +52,5 @@ ERREUR SQL : 2 Jun 2020 - 14:19:32.000000 --> SELECT TRNNUM,TRNDTE,CHFNOM,VEHIMM
 							FROM tournee,chauffeur 
 							WHERE tournee.CHFID=chauffeur.CHFID; : (Table 'mesguen.tournee' doesn't exist) 
 ERREUR SQL : 2 Jun 2020 - 14:23:28.000000 --> SELECT CHFNOM FROM chauffeur : (Table 'mesguen.chauffeur' doesn't exist) 
+ERREUR SQL : 3 Jun 2020 - 13:19:02.000000 --> INSERT INTO tournee(TRNNUM, VEHIMMAT, CHFID, TRNCOMMENTAIRE, TRNDTE)
+    				VALUES (45+1,'IS-003-GB',,'','2020/06/03 13:18:00') : (You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''','2020/06/03 13:18:00')' at line 2) 

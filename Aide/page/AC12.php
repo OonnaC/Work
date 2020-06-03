@@ -11,7 +11,7 @@
 <section1></section1>
 <section2></section2>
 <aside>
-    <h1>Ajout de tournée</h1>
+    <h1>Ajout de tourn&eacute;e</h1>
     <hr />
     <br />
     <br />
@@ -56,7 +56,7 @@
             <br />
             <br />
 
-            <label for="voiture">Véhicule :</label>
+            <label for="voiture">V&eacute;hicule :</label>
 
             <?php
 				$sql = "SELECT VEHIMMAT FROM vehicule";
@@ -152,7 +152,7 @@
 					$IdTournee = mysqli_fetch_row($result);
 							
 					echo"</tr>";
-					echo "<p>Aucune etape en cour...</p>";
+					echo "<p>Aucune &eacute;tape en cours...</p>";
 				}
     		?>
 
