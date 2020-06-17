@@ -1,0 +1,16 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\bin\Debug\Serialisation.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\bin\Debug\Serialisation.pdb
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\bin\Debug\Serialisation.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\obj\x86\Debug\Serialisation.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\obj\x86\Debug\Serialisation.vbproj.GenerateResource.Cache
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\obj\x86\Debug\Serialisation.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\obj\x86\Debug\Serialisation.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\Serialisation\obj\x86\Debug\Serialisation.pdb
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\obj\x86\Debug\Serialisation.exe
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\obj\x86\Debug\Serialisation.xml
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\obj\x86\Debug\Serialisation.pdb
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\bin\Debug\Serialisation.exe
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\bin\Debug\Serialisation.pdb
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\bin\Debug\Serialisation.xml
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\obj\x86\Debug\Serialisation.Resources.resources
+F:\CHAPALAINOonna\SLAM4\Serialisation\Serialisation\obj\x86\Debug\Serialisation.vbproj.GenerateResource.Cache

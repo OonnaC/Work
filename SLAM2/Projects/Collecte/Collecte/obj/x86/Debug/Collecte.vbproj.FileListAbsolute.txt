@@ -1,0 +1,11 @@
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\obj\x86\Debug\Collecte.Resources.resources
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\obj\x86\Debug\Collecte.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\bin\Debug\Collecte.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\bin\Debug\Collecte.pdb
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\bin\Debug\Collecte.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\obj\x86\Debug\Collecte.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\obj\x86\Debug\Collecte.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\Collecte\obj\x86\Debug\Collecte.pdb
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\Collecte\Collecte\obj\x86\Debug\Collecte.exe
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\Collecte\Collecte\obj\x86\Debug\Collecte.xml
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\Collecte\Collecte\obj\x86\Debug\Collecte.pdb

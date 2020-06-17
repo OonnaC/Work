@@ -1,0 +1,16 @@
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\obj\x86\Debug\PERSISTANCE.Resources.resources
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\obj\x86\Debug\PERSISTANCE.vbproj.GenerateResource.Cache
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\bin\Debug\PERSISTANCE.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\bin\Debug\PERSISTANCE.pdb
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\bin\Debug\PERSISTANCE.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\obj\x86\Debug\PERSISTANCE.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\obj\x86\Debug\PERSISTANCE.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\PERSISTANCE\obj\x86\Debug\PERSISTANCE.pdb
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\obj\x86\Debug\PERSISTANCE.xml
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\obj\x86\Debug\PERSISTANCE.pdb
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\obj\x86\Debug\PERSISTANCE.Resources.resources
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\obj\x86\Debug\PERSISTANCE.vbproj.GenerateResource.Cache
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\bin\Debug\PERSISTANCE.exe
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\bin\Debug\PERSISTANCE.pdb
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\bin\Debug\PERSISTANCE.xml
+C:\Users\Oonna\Documents\Visual Studio 2010\Projects\PERSISTANCE\PERSISTANCE\obj\x86\Debug\PERSISTANCE.exe

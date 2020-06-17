@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Serialisation
+</name>
+</assembly>
+<members>
+<member name="M:Serialisation.Compte.depot(System.Double)">
+	<summary>
+ Permet de deposer une somme sur le compte
+ </summary>
+	<param name="uneSomme"> somme que l'on desire deposer </param>
+	<remarks></remarks>
+</member><member name="P:Serialisation.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Serialisation.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Serialisation.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Serialisation.CompteEpargne.#ctor(System.Int32,System.Double,System.Double,System.Double)">
+	<summary>
+ Creation d'un premier constructeur avec quatre arguments
+ </summary>
+	<param name="numeroInitial">numero du compte epargne</param>
+	<param name="soldeInitial">solde initial du compte epargne</param>
+	<param name="plafondInitial">plafond du compte epargne</param>
+	<param name="tauxInitial">taux du compte epargne</param>
+	<remarks>Creer le 29/04/2015 E.Le Guen (version 1.2)</remarks>
+</member>
+</members>
+</doc>

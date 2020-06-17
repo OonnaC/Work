@@ -1,0 +1,16 @@
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\bin\Debug\TP3.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\bin\Debug\TP3.pdb
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\bin\Debug\TP3.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\obj\x86\Debug\TP3.Resources.resources
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\obj\x86\Debug\TP3.vbproj.GenerateResource.Cache
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\obj\x86\Debug\TP3.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\obj\x86\Debug\TP3.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP3\obj\x86\Debug\TP3.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\obj\x86\Debug\TP3.exe
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\obj\x86\Debug\TP3.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\obj\x86\Debug\TP3.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\bin\Debug\TP3.exe
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\bin\Debug\TP3.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\bin\Debug\TP3.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\obj\x86\Debug\TP3.Resources.resources
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP3\TP3\obj\x86\Debug\TP3.vbproj.GenerateResource.Cache

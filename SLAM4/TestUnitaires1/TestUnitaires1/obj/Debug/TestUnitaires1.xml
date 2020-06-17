@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestUnitaires1
+</name>
+</assembly>
+<members>
+<member name="M:TestUnitaires.Compte.depot(System.Int32)">
+	<summary>
+ Permet de deposer une somme sur le compte
+ </summary>
+	<param name="uneSomme"> somme que l'on desire deposer </param>
+	<remarks></remarks>
+</member><member name="P:TestUnitaires.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TestUnitaires.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TestUnitaires.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

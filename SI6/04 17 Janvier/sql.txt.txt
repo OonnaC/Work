@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS `test` (
+  `Numero` int(11) NOT NULL,
+  `Info` char(20) NOT NULL
+) 

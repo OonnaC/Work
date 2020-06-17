@@ -1,0 +1,376 @@
+ping google.fr
+ip a
+ping 10.0.255.254
+ping 10.0.0.11
+ping google.fr
+ping google.fr
+apt-get update
+apt-get upgrade
+init 0
+cd /etc/apt/sources.list.d/
+ls
+nano pve-enterprise.list 
+docker run --name TryNginx1 -p 80:80 -d nginx
+cd
+docker ps
+docker exec -it TryNginx1
+docker exec -it TryNginx1 /bin/bash
+apt-get install net-tools
+exit
+ping www.google.com
+cd /etc/apt/sources.list.d/
+ls
+nano pve-enterprise.list 
+ls
+clear
+cd
+apt update
+apt upgrade
+apt-get install docker
+docker --version
+apt-get install docker-compose
+docker --version
+docker ps
+ping google.fr
+ifconfig 
+journalctl -xer
+journalctl -xe
+init 6
+docker exec -it TryNginx1 bash
+docker ps
+docker ps
+ls
+-help
+help
+ls a
+ls -a
+cd .local
+ls -a
+cd .profile
+cd /.profile
+cd ..
+cd .profile
+ls -a
+cd .profile
+ls .
+cd .
+clear
+ls -a
+apt-get install lxc
+apt-get install bridge-utils libvirt-bin debootstrap
+apt-get upgrade
+apt-get install lxc
+ifconfig 
+docker ps
+docker container ls
+docker container ls --all
+docker start 
+docker start  TryNginx1
+docker ps
+docker exec -it TryNginx1 
+docker exec -it TryNginx1 /bin/bash
+docker stop TryNginx1 
+docker rm 
+docker rm  TryNginx1 
+apt-get update
+apt-get upgrade
+systemctl status
+apt-get install net-tools 
+ifconfig 
+docker run --name TryNginx1 -d -p 8080:80 some-content-nginx
+docker run --name TryNginx1 -v /some/content:/usr/share/nginx/html:ro -d nginx
+docker run --name TryNginx1 -d -p 8080:80 some-content-nginx
+docker ps
+docker exec -it TryNginx1 /bin/bash
+ls
+docker ps
+docker -rm 
+docker rm 
+docker rm 
+docker ps
+docker stop TryNginx1 
+docker rm TryNginx1 
+docker run --name TryNginx1 -d -p 8080:80 nginx
+docker ps
+docker exec -it TryNginx1 /bin/bash
+
+docker ps
+docker exec -it TryNginx1 /bin/bash
+cd /var/
+ls
+cd
+ls
+cd /
+ls
+docker exec -it TryNginx1 /bin/bash
+cd /usr/
+ls
+cd share/
+ls
+docker exec -it TryNginx1 /bin/bash
+docker exec -it TryNginx2 /bin/bash
+ls
+docker run --name TryNginx3 -d -p 8082:80 nginx
+docker ps
+docker ps
+docker stop  TryNginx1
+docker ps
+docker ps -a
+docker start TryNginx1 
+docker exec TryNginx3
+docker exec TryNginx3 apt-get update
+docker exec TryNginx3 bash
+docker exec TryNginx3 bash
+docker exec TryNginx3 /bin/bash
+cd
+ls
+cd /
+docker exec TryNginx3 /bin/bash
+docker ps
+docker exec -it TryNginx3
+docker exec -it TryNginx3 bash
+docker
+docker swarm --help
+man
+man docker swarm
+man docker swarm init
+man docker-swarm-init
+curl
+curL
+init 0
+docker ps -a
+dock start Try
+docker start TryNginx*
+docker start TryNginx
+docker start TryNginx1
+docker start TryNginx2
+docker start TryNginx3
+clear
+docker ps -a
+docker stop TryNginx3
+docker stop TryNginx2
+docker stop TryNginx1
+docker dele
+docker 
+docker rm TryNginx1
+docker rm TryNginx2
+docker rm TryNginx3
+docker run --name TryNginx1 -d -p 8080:80 nginx
+docker stop TryNginx1 
+docker rm TryNginx1 
+docker run --name TryNginx1 -d -p 8081:80 nginx
+docker run --name TryNginx2 -d -p 8082:80 nginx
+docker run --name TryNginx3 -d -p 8083:80 nginx
+docker ps -a
+docker exec -it TryNginx1 bash
+docker ps -a
+docker exec -it TryNginx2 bash
+docker exec -it TryNginx3 bash
+docker ps -a
+docker volume create portainer_data
+docker run -d -p 8000:8000 -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
+docker ps -a
+docker stop awesome_montalcini 
+docker rm awesome_montalcini 
+ls
+docker ps
+docker volume
+docker volume ls
+docker volume rm portainer_data 
+docker run --name portainer -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+docker ps
+cd /etc/systemd/system/
+ls
+cd docker.service.d/
+cd
+nano /etc/systemd/system/docker.service.d/override.conf
+cd /etc/systemd/system/
+ls
+cd ..
+cd
+service docker status
+ls
+system 
+system docker
+ls
+cd 
+cd /
+ls
+cd etc/
+l
+ls
+cd docker/
+ls
+cd ..
+cd systemd/
+ls
+cd system/
+ls
+ls -l
+cd ..
+cd user/
+ls
+cd ..
+ss -ntl
+cd /lib
+ls
+cd systemd/
+ls
+cd system
+ls
+cd docker.service
+ls
+cd docker
+cd ..
+ls
+cd system
+ls -l
+cd docker
+ls docker.service 
+nano docker.service 
+system docker.service reload
+sudo systemctl daemon-reload
+sudo systemctl restart docker.service
+systemctl daemon-reload
+systemctl restart docker.service
+systemctl restart docker
+systemctl status docker.s
+systemctl status docker.service 
+nano docker.service 
+systemctl restart docker
+systemctl status docker.service 
+nano docker.service 
+systemctl status docker.service 
+systemctl docker
+system docker.s restart
+system docker.s
+system docker.s start
+systemctl restart docker
+nano docker.service 
+systemctl restart docker
+systemctl status docker
+nano docker.service 
+ls -l
+nano docker.service 
+nano docker.socket 
+systemctl start docker
+journalctl -xr
+journalctl -xe
+systemctl status docker
+clear
+ls -la
+nano docker.s
+nano docker.service 
+cp docker.service docker.service.bak
+ls -la
+rm docker.service
+nano docker.service
+docker
+docker start
+docker ps
+cd
+nano /etc/systemd/system/docke.service.d
+ls
+cd /etc/systemd/system/
+ls -l
+exit
+systemctl edit docker.service 
+systemctl daemon-reload 
+systemctl restart docker.service
+journalctl -xe
+docker ps
+systemctl edit docker.service 
+systemctl daemon-reload 
+systemctl restart docker.service
+docker ps
+docker start TryNginx1
+docker start TryNginx2
+docker start TryNginx3
+docker start portainer 
+docker ps
+apt-get update
+apt-get upgrade
+docker stop
+systemctl daemon-reload
+systemctl restart docker.service
+docker start portainer 
+docker start TryNginx1
+docker start TryNginx2
+docker start TryNginx3
+docker docker run -dit --restart unless-stopped
+docker docker run -dit --restart unless-stopped 
+docker run -dit --restart unless-stopped 
+docker run -dit --restart unless-stopped TryNginx1
+docker run -dit --restart unless-stoppe
+docker stop 
+docker stop TryNginx1 TryNginx2 TryNginx3
+docker start TryNginx1 TryNginx2 TryNginx3 --restart unless-stopped
+docker start --restart unless-stopped TryNginx1 TryNginx2 TryNginx3
+docker start --help
+docker start TryNginx1 TryNginx2 TryNginx3
+docker pull sameersbn/bind:9.11.3-20190706
+docker run --name bind -d --restart=always   --publish 53:53/tcp --publish 53:53/udp --publish 10000:10000/tcp   --volume /srv/docker/bind:/data   sameersbn/bind:9.11.3-20190706
+docker ps
+docker ps
+history
+clear
+docker ps
+ping
+ping 127.0.0.1
+ping localhost
+ping trynginx1
+docker update --restart always portainer 
+init 6
+apt-get install lxc
+apt full-upgrade
+lxc-checkconfig
+lxc-start -n MyLXCcontainer1 -t debian
+lxc-create -n MyLXCcontainer -t debian
+lxc-create -t download - n MyLXCcontainer1
+aptitude install lxc
+apt-get install bridge-utils libvirt-bin debootstrap
+docker ps
+init 0
+exit
+docker ps
+ping trynginx1
+history
+docker run --name HAProxy -d --restart=always --publish 8080:80 --publish 9090:443 haproxy
+docker ps
+docker stop haproxy
+docker run --name HAProxy -d --restart=always -p 8080:80 -p 9090:443 haproxy
+docker ps
+docker run -p 8080:80 -p 50000:50000 jenkins
+ 
+ 
+docker run --name Jenkins -p 8080:8080 -p 50000:50000 jenkins
+docker run --name Jenkins -p 8080:8080 -p 50000:50000 jenkins
+docker run --name TryNginx4 -p 8084:80 -p 2024:22 nginx
+clear
+docker ps
+docker kill TryNginx4
+docker rm TryNginx4 
+ls
+clear
+docker pull haproxy
+nano /bin/bash
+cd /var/
+ls
+cd /E
+cd /e
+cd /etc/
+ls
+cd 
+clear
+cd
+clear
+cd /etc/ssh/
+ls
+nano sshd_config 
+docker run --name TryNginx4 -p 8084:80 -p 2024:22 nginx
+systemctl ssh restaryt
+system ssh restart
+cd
+systemctl restart ssh
+docker exec -it TryNginx4 bin/bash
+eùxit

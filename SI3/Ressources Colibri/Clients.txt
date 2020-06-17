@@ -1,0 +1,12 @@
+codecli;prenomcli;nomcli;ruecli;cpcli;villecli
+1;Alberto;Dubois;3 rue du Pont;57500;Saint-Avold
+2;Mi;Volond;4 rue de la liberté;57500;Saint-Avold
+3;Roger;Botas;5 place du marché;57500;Saint-Avold
+4;Edouard;Noulas;41 rue de l'église;57600;Forbach
+5;Paul;Lontague;21 Boulevard des oiseaux;57800;Freyming
+6;Eric;Pondier;14,rue des Agates;57600;Forbach
+7;Thomas;Malon;12 rue des lapins;57600;Forbach
+8;Rénato;Point;451, rue de l'égalité;57500;Saint-Avold
+9;Michel;Botas;17, rue des hochets;57500;Saint-Avold
+10;David;Collague;14, rue Utrillo;57600;Forbach
+11;Simon;Potillon;17,rue des marguerites;57800;Freyming

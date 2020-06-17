@@ -1,0 +1,18 @@
+# Activer l'authentification de base
+AuthType Basic
+
+# Ceci est ce qui va etre affiche dans la boite de dialogue d'authentification
+AuthName "Veuillez saisir votre login(root) et votre mot de passe(password)"
+
+# Editer ceci pour le chemin absolu au fichier .htpasswd
+AuthUserFile "C:\Users\erwan.ESTRANSUP\Desktop\SIO\Modules\SI6\_SRC_SI6_\htaccess\admin\.htpasswd"
+
+# Ceci permet a un utilisateur valide dans le fichier .htpasswd d'acceder a la ressource
+Require valid-user
+
+
+
+# Pour récupérer le login dans PHP si on travaille en CGI
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization},L] 
+

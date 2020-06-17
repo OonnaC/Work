@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TPEntity
+</name>
+</assembly>
+<members>
+<member name="M:TPEntity.testentityEntities.#ctor">
+	<summary>
+ Initialise un nouvel objet testentityEntities à l'aide de la chaîne de connexion trouvée dans la section 'testentityEntities' du fichier de configuration d'application.
+ </summary>
+</member><member name="M:TPEntity.testentityEntities.#ctor(System.String)">
+	<summary>
+ Initialisez un nouvel objet testentityEntities.
+ </summary>
+</member><member name="M:TPEntity.testentityEntities.#ctor(System.Data.EntityClient.EntityConnection)">
+	<summary>
+ Initialisez un nouvel objet testentityEntities.
+ </summary>
+</member><member name="P:TPEntity.testentityEntities.user">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="M:TPEntity.testentityEntities.AddTouser(TPEntity.user)">
+	<summary>
+ Méthode déconseillée pour ajouter un nouvel objet à l'EntitySet user. Utilisez la méthode .Add de la propriété ObjectSet(Of T) associée à la place.
+ </summary>
+</member><member name="T:TPEntity.testentityEntities">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="M:TPEntity.user.Createuser(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Créez un nouvel objet user.
+ </summary>
+	<param name="numero">Valeur initiale de la propriété numero.</param>
+	<param name="login">Valeur initiale de la propriété login.</param>
+	<param name="password">Valeur initiale de la propriété password.</param>
+	<param name="email">Valeur initiale de la propriété email.</param>
+</member><member name="P:TPEntity.user.numero">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="P:TPEntity.user.login">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="P:TPEntity.user.password">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="P:TPEntity.user.email">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="T:TPEntity.user">
+	<summary>
+ Aucune documentation sur les métadonnées n'est disponible.
+ </summary>
+</member><member name="P:TPEntity.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:TPEntity.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:TPEntity.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

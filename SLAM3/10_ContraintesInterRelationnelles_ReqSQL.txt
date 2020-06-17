@@ -1,0 +1,44 @@
+﻿1) Vérifier que chaque employé titulaire a un salaire supérieur ou égal au SMIC 
+SELECT idEmp, nom, salaire
+FROM employe
+WHERE statut ='titulaire';
+
+2) Vérifier que pour chaque employé sa prime  ne peut pas dépasser 10% de son salaire 
+SELECT COUNT(*)
+ FROM EMPLOYE
+ WHERE prime > salaire * 0.1;
+
+3) Vérifier que la rémunération (salaire+prime) d'un employé d'un service ne dépasse pas
+la rémunération du chef de ce service
+SELECT nom
+FROM employe E
+WHERE salaire+prime > (SELECT salaire+prime
+               FROM employe, service
+               WHERE employe.noService = service.noService
+               and employe.idEmp = service.chef
+        and service.noService = E.noService)
+
+4)
+SELECT SUM(salaire + prime)
+FROM EMPLOYE
+GROUP BY noService
+HAVING SUM(salaire + prime) < (SELECT budget FROM SERVICE
+                WHERE noService = EMPLOYE.noService);
+
+5) Vérifier qu’un employé de statut 'stagiaire' ne peut pas être chef de service
+select nom from employe, service
+where employe.idemp = service.chef
+and statut = stagiaire;
+
+6)
+SELECT nomservice, count(*)
+
+FROM employe e,service s
+
+WHERE s.noservice = e.noservice
+
+GROUP BY nomservice, noservice
+HAVING count(*) > 15;
+7)
+Update employe
+set salaire = salaire *1.05;

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TestProject1
+</name>
+</assembly>
+<members>
+<member name="P:TestProject1.operationsTest.TestContext">
+	<summary>
+Obtient ou définit le contexte de test qui fournit
+des informations sur la série de tests active ainsi que ses fonctionnalités.
+</summary>
+</member><member name="M:TestProject1.operationsTest.CarreTest">
+	<summary>
+Test pour Carre
+</summary>
+</member><member name="M:TestProject1.operationsTest.PuissanceTest">
+	<summary>
+Test pour Puissance
+</summary>
+</member><member name="T:TestProject1.operationsTest">
+	<summary>
+Classe de test pour operationsTest, destinée à contenir tous
+les tests unitaires operationsTest
+</summary>
+</member><member name="P:TestProject1.CompteTest.TestContext">
+	<summary>
+Obtient ou définit le contexte de test qui fournit
+des informations sur la série de tests active ainsi que ses fonctionnalités.
+</summary>
+</member><member name="M:TestProject1.CompteTest.depotTest">
+	<summary>
+Test pour depot
+</summary>
+</member><member name="M:TestProject1.CompteTest.retraitTest">
+	<summary>
+Test pour retrait
+</summary>
+</member><member name="T:TestProject1.CompteTest">
+	<summary>
+Classe de test pour CompteTest, destinée à contenir tous
+les tests unitaires CompteTest
+</summary>
+</member>
+</members>
+</doc>

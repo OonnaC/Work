@@ -1,0 +1,19 @@
+Jeu de tests exercice N°7 (factoriel)
+-------------------------------------
+
+SAISIE					AFFICHAGE
+------					---------
+
+N					N!	
+
+0					1
+1					1
+2					2	
+3					6
+4					24	
+5					120
+6					720	
+7					5040
+
+
+Pas d'erreur de saisie

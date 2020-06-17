@@ -1,0 +1,16 @@
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\bin\Debug\LaConsole.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\bin\Debug\LaConsole.pdb
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\bin\Debug\LaConsole.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\obj\x86\Debug\LaConsole.Resources.resources
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\obj\x86\Debug\LaConsole.vbproj.GenerateResource.Cache
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\obj\x86\Debug\LaConsole.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\obj\x86\Debug\LaConsole.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\LaConsole\obj\x86\Debug\LaConsole.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\obj\x86\Debug\LaConsole.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\obj\x86\Debug\LaConsole.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\bin\Debug\LaConsole.exe
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\bin\Debug\LaConsole.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\bin\Debug\LaConsole.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\obj\x86\Debug\LaConsole.Resources.resources
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\obj\x86\Debug\LaConsole.vbproj.GenerateResource.Cache
+C:\Users\Oonna\documents\visual studio 2010\Projects\LaConsole\LaConsole\obj\x86\Debug\LaConsole.exe

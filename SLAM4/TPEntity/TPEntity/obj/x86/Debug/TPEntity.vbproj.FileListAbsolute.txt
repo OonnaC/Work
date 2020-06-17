@@ -1,0 +1,13 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\TPEntity\obj\x86\Debug\TPEntity.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\TPEntity\obj\x86\Debug\TPEntity.vbproj.GenerateResource.Cache
+C:\Users\18ochapala\AppData\Local\Temporary Projects\TPEntity\bin\Debug\TPEntity.exe.config
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\bin\Debug\TPEntity.exe.config
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.vbprojResolveAssemblyReference.cache
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.Resources.resources
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.vbproj.GenerateResource.Cache
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\bin\Debug\TPEntity.exe
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\bin\Debug\TPEntity.pdb
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\bin\Debug\TPEntity.xml
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.exe
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.xml
+F:\CHAPALAINOonna\SLAM4\TPEntity\TPEntity\obj\x86\Debug\TPEntity.pdb

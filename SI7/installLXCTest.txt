@@ -1,0 +1,11 @@
+//Mode root
+apt-get install lxc
+apt full-upgrade
+//select lxc
+lxc-checkconfig
+//creation 1 container
+lxc-create -t download -n MyLXCcontainer1
+//Mise en place templates
+sed -i -e "s/locale-gen en_US.UTF-8 UTF-8/locale-gen fr_FR.UTF-8/g" /usr/share/lxc/templates/lxc-debian
+sed -i -e "s/update-locale LANG=en_US.UTF-8/update-locale LANG=fr_FR.UTF-8/g" /usr/share/lxc/templates/lxc-debian
+Le fichier de configuration

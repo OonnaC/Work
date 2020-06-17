@@ -1,0 +1,6 @@
+sys--> super admin (propriétaire=créateur fichier)
+system--> admin
+dbsnmp-->
+sysman-->
+
+ex mdp: estran

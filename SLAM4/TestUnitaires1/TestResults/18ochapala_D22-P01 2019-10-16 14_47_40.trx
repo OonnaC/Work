@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="04de4cf4-28d3-4520-8813-5628037a076e" name="18ochapala@D22-P01 2019-10-16 14:47:40" runUser="ESTRANSUP\18ochapala" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5496a725-e6d4-4eb9-a855-6f81fb958bc6">
+    <Description>Il s'agit des paramètres de test par défaut pour une série de tests locale.</Description>
+    <Deployment enabled="false" runDeploymentRoot="18ochapala_D22-P01 2019-10-16 14_47_40">
+      <DeploymentItem filename="C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestUnitaires1\bin\Debug\TestUnitaires1.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2019-10-16T14:47:40.0643862+02:00" queuing="2019-10-16T14:47:40.4097697+02:00" start="2019-10-16T14:47:40.4476681+02:00" finish="2019-10-16T14:47:40.7618297+02:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="retraitTest" storage="c:\users\18ochapala\documents\visual studio 2010\projects\testunitaires1\testproject1\bin\debug\testproject1.dll" id="5b0b3a6b-2730-0073-1b11-be397258dea1">
+      <Execution id="8c0d768d-53b7-4d59-9e1e-04ae918f589b" />
+      <TestMethod codeBase="C:/Users/18ochapala/Documents/Visual Studio 2010/Projects/TestUnitaires1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CompteTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="retraitTest" />
+    </UnitTest>
+    <UnitTest name="CarreTest" storage="c:\users\18ochapala\documents\visual studio 2010\projects\testunitaires1\testproject1\bin\debug\testproject1.dll" id="c4426f4f-2825-b3cd-7e89-794c4b7a3c4f">
+      <Execution id="19524152-af4f-408b-bd0c-080a5760fe92" />
+      <TestMethod codeBase="C:/Users/18ochapala/Documents/Visual Studio 2010/Projects/TestUnitaires1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.operationsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CarreTest" />
+    </UnitTest>
+    <UnitTest name="PuissanceTest" storage="c:\users\18ochapala\documents\visual studio 2010\projects\testunitaires1\testproject1\bin\debug\testproject1.dll" id="1682e142-c0ee-ed6b-17a8-03a62702c92e">
+      <Execution id="e3836c78-623d-4315-ab86-53eb0100a6ad" />
+      <TestMethod codeBase="C:/Users/18ochapala/Documents/Visual Studio 2010/Projects/TestUnitaires1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.operationsTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PuissanceTest" />
+    </UnitTest>
+    <UnitTest name="depotTest" storage="c:\users\18ochapala\documents\visual studio 2010\projects\testunitaires1\testproject1\bin\debug\testproject1.dll" id="f3d2d655-e77a-da24-ccc6-1611257b93a0">
+      <Execution id="5d9dc9f3-46fe-4a64-b46f-d7ebb8d6ff7c" />
+      <TestMethod codeBase="C:/Users/18ochapala/Documents/Visual Studio 2010/Projects/TestUnitaires1/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.CompteTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="depotTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Les résultats ne figurent pas dans une liste" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Tous les résultats chargés" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1682e142-c0ee-ed6b-17a8-03a62702c92e" executionId="e3836c78-623d-4315-ab86-53eb0100a6ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5b0b3a6b-2730-0073-1b11-be397258dea1" executionId="8c0d768d-53b7-4d59-9e1e-04ae918f589b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4426f4f-2825-b3cd-7e89-794c4b7a3c4f" executionId="19524152-af4f-408b-bd0c-080a5760fe92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3d2d655-e77a-da24-ccc6-1611257b93a0" executionId="5d9dc9f3-46fe-4a64-b46f-d7ebb8d6ff7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e3836c78-623d-4315-ab86-53eb0100a6ad" testId="1682e142-c0ee-ed6b-17a8-03a62702c92e" testName="PuissanceTest" computerName="D22-P01" duration="00:00:00.0086753" startTime="2019-10-16T14:47:40.4576422+02:00" endTime="2019-10-16T14:47:40.6700756+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3836c78-623d-4315-ab86-53eb0100a6ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="8c0d768d-53b7-4d59-9e1e-04ae918f589b" testId="5b0b3a6b-2730-0073-1b11-be397258dea1" testName="retraitTest" computerName="D22-P01" duration="00:00:00.0019767" startTime="2019-10-16T14:47:40.6760604+02:00" endTime="2019-10-16T14:47:40.6820432+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c0d768d-53b7-4d59-9e1e-04ae918f589b">
+      <Output>
+        <DebugTrace>...COMPTE INSTANCIE...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="19524152-af4f-408b-bd0c-080a5760fe92" testId="c4426f4f-2825-b3cd-7e89-794c4b7a3c4f" testName="CarreTest" computerName="D22-P01" duration="00:00:00.0001968" startTime="2019-10-16T14:47:40.6880266+02:00" endTime="2019-10-16T14:47:40.6900231+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19524152-af4f-408b-bd0c-080a5760fe92">
+    </UnitTestResult>
+    <UnitTestResult executionId="5d9dc9f3-46fe-4a64-b46f-d7ebb8d6ff7c" testId="f3d2d655-e77a-da24-ccc6-1611257b93a0" testName="depotTest" computerName="D22-P01" duration="00:00:00.0002350" startTime="2019-10-16T14:47:40.6950102+02:00" endTime="2019-10-16T14:47:40.6970052+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d9dc9f3-46fe-4a64-b46f-d7ebb8d6ff7c">
+      <Output>
+        <DebugTrace>...COMPTE INSTANCIE...
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

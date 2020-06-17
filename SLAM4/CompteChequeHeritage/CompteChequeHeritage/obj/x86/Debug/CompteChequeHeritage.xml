@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+CompteChequeHeritage
+</name>
+</assembly>
+<members>
+<member name="M:CompteChequeHeritage.ClassCompte.depot(System.Int32)">
+	<summary>
+ Permet de deposer une somme sur le compte
+ </summary>
+	<param name="uneSomme"> somme que l'on desire deposer </param>
+	<remarks></remarks>
+</member><member name="P:CompteChequeHeritage.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:CompteChequeHeritage.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:CompteChequeHeritage.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

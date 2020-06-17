@@ -1,0 +1,10 @@
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestProject1.dll
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestProject1.pdb
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestProject1.xml
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestUnitaires1.dll
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestUnitaires1.pdb
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\bin\Debug\TestUnitaires1.xml
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\obj\Debug\TestUnitaireFctCarre.vbprojResolveAssemblyReference.cache
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\obj\Debug\TestProject1.dll
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\obj\Debug\TestProject1.xml
+C:\Users\18ochapala\documents\visual studio 2010\Projects\TestUnitaires1\TestProject1\obj\Debug\TestProject1.pdb

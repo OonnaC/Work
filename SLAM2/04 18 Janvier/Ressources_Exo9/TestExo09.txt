@@ -1,0 +1,63 @@
+Exercice 9 Jeu de tests
+
+ENTREES :
+
+        MesProduits(1).Designation = "Banane"
+        MesProduits(1).Numero = 1
+        MesProduits(1).Quantite = 2
+        MesProduits(1).Prix = 0.89
+
+        MesProduits(2).Designation = "Pomme"
+        MesProduits(2).Numero = 2
+        MesProduits(2).Quantite = 4
+        MesProduits(2).Prix = 0.5
+
+        MesProduits(3).Designation = "Orange"
+        MesProduits(3).Numero = 3
+        MesProduits(3).Quantite = 6
+        MesProduits(3).Prix = 0.3
+
+        MesProduits(4).Designation = "Pain"
+        MesProduits(4).Numero = 4
+        MesProduits(4).Quantite = 1
+        MesProduits(4).Prix = 0.95
+
+        MesProduits(5).Designation = "Croissant"
+        MesProduits(5).Numero = 5
+        MesProduits(5).Quantite = 1
+        MesProduits(5).Prix = 1.0
+
+
+SORTIE (solution) :
+
+	7.53
+
+
+
+AFFICHAGE DEFINITIF :
+
+
+	         TICKET DE CAISSE
+	----------------------------------
+	Le vendredi 1 Fevrier 2013 à 10:29	
+
+	5 Articles
+
+
+	2 Banane	0.89
+				1.78
+	4 Pomme		0.50
+				2.00
+	6 Orange	0.30
+				1.80
+	1 Pain		0.95	
+				0.95
+	1 Croissant     1.00
+				1.00
+				----
+	TOTAL :	                7.53 €
+
+
+
+	Merci de votre visite
+	----------------------------------- 

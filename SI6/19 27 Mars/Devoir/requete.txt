@@ -1,0 +1,5 @@
+21 Feb 2018 - 12:26:00 - root - INSERT INTO test (numero, info) VALUES (NULL, '456');
+21 Feb 2018 - 12:26:00 - root - INSERT INTO test (numero, info) VALUES (NULL, '199');
+21 Feb 2018 - 12:26:00 - root - INSERT INTO test (numero, info) VALUES (NULL, '768');
+21 Feb 2018 - 12:26:00 - root - INSERT INTO test (numero, info) VALUES (NULL, '331');
+21 Feb 2018 - 12:26:00 - root - INSERT INTO test (numero, info) VALUES (NULL, '215');

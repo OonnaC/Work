@@ -1,0 +1,16 @@
+Function rechercherIndex(ByVal unNumero As String) As Integer
+
+        Dim position As Integer = 0
+
+        For i As Integer = 1 To mesComptes.Count
+
+            If mesComptes.Item(i).numeroCompte = unNumero Then
+                position = i
+                Exit For
+            End If
+
+        Next
+
+        Return position
+
+    End Function

@@ -1,0 +1,19 @@
+Jeu de tests exercice N°5 (facture telephonique)
+------------------------------------------------
+
+SAISIE					AFFICHAGE
+------					---------
+
+NBUnit					MontantHT	MontantTVA	MontantTTC	
+
+0					8,9		1,78		10,68
+
+14					10,58		2,116		12,696
+
+50					14,9		2,98		17,88
+
+100					20,9		4,18		25,08
+
+
+
+Pas d'erreur de saisie

@@ -1,0 +1,8 @@
+CNX OK - 24 Feb 2016 - 12:09:19 - root
+CNX PB - 24 Feb 2016 - 12:10:10 - pirate - Access denied for user ''@'localhost' to database 'si6'
+CNX PB - 24 Feb 2016 - 12:11:22 - pirate - Access denied for user ''@'localhost' to database 'si6'
+CNX PB - 24 Feb 2016 - 12:17:02 - pirate - Access denied for user ''@'localhost' to database 'si6'
+CNX OK - 24 Feb 2016 - 12:17:35 - root
+CNX OK - 21 Feb 2018 - 12:15:49 - root
+CNX OK - 21 Feb 2018 - 12:23:27 - root
+CNX OK - 21 Feb 2018 - 12:26:00 - root

@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS `test` (
+		`numero` int(11) NOT NULL AUTO_INCREMENT,
+		`info` char(20) NOT NULL,
+		PRIMARY KEY (`numero`),
+		UNIQUE KEY `info` (`info`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;

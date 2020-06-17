@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TP7poo.Operation">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAIIAIAAAAAAgAEAAAAAAACEAAWAQAAAAgAAAAAgAA=</HashCode>
+      <FileName>Operation.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TP7poo.Compte">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAEICACQAAAAAAEQABOAAAAADAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Compte.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="TP7poo.TypeOperation">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypeOperation.vb</FileName>
+      <NewMemberFileName>tYPEoPERATION.vb</NewMemberFileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

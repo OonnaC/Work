@@ -1,0 +1,8 @@
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\obj\x86\Debug\BTSBlanc2.Resources.resources
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\obj\x86\Debug\BTSBlanc2.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\bin\Debug\BTSBlanc2.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\bin\Debug\BTSBlanc2.pdb
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\bin\Debug\BTSBlanc2.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\obj\x86\Debug\BTSBlanc2.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\obj\x86\Debug\BTSBlanc2.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\BTSBlanc2\obj\x86\Debug\BTSBlanc2.pdb

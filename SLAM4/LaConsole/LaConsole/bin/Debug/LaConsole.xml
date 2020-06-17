@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+LaConsole
+</name>
+</assembly>
+<members>
+<member name="P:LaConsole.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:LaConsole.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:LaConsole.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:LaConsole.Parking.complet">
+	<summary>
+ Cette fonction permet de savoir si le parking est complet
+ </summary>
+	<returns>Booleen True si complet et False sinon</returns>
+	<remarks></remarks>
+</member><member name="M:LaConsole.Parking.vide">
+	<summary>
+ Cette fonction permet de savoir si le parking est vide
+ </summary>
+	<returns>Booleen True si complet et False sinon</returns>
+	<remarks></remarks>
+</member><member name="M:LaConsole.Parking.entreeVoiture">
+	<summary>
+ Cette methode permet l'entrée d'un véhicule
+ </summary>
+	<remarks>On teste si le parking n'est pas complet</remarks>
+</member><member name="M:LaConsole.Parking.sortieVoiture(System.Int32)">
+	<summary>
+ Ce décompte permet de retirer la sortie de voiture(s) dans l'objet Me.placesOccupees et d'insérer la sortie de voiture(s) du nombre de places libres dans l'objet Me.placesLibres
+ </summary>
+	<param name="unDecompte">Sortie de voiture(s)</param>
+	<remarks>méthode céée le 26/02/2019 par Oonna version 1.0</remarks>
+</member><member name="M:LaConsole.Parking.sortieVoiture">
+	<summary>
+ Cette methode permet la sortie d'un vehicule
+ </summary>
+	<remarks>On teste si le parking n'est pas vide</remarks>
+</member>
+</members>
+</doc>

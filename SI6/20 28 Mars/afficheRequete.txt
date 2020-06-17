@@ -1,0 +1,33 @@
+
+/**
+ *
+ * Affiche sous forme d'un tableau le resultat d'une requete SQL.
+ * 
+ * @param string $sql Requete SQL.
+ *
+ */
+function afficheRequete($sql) {
+	
+	$results = tableSQL($sql);
+	
+	$nbchamps = nombreChamp($sql);
+	
+	echo "<table style=\"border: 2px solid blue; border-collapse: collapse; \">";
+	echo "   <caption style=\"color:green;font-weight:bold\">$sql</caption>
+	<tr style=\"border: 2px solid blue; border-collapse: collapse; \" >";
+	for ($i=0;$i<$nbchamps;$i++) {
+		echo "<th style=\"border: 2px solid blue; border-collapse: collapse; \">".nomChamp($sql,$i)."(".typeChamp($sql,$i).")</th>";
+	}
+	echo "   </tr>";
+	
+	foreach ($results as $ligne) {
+		echo "<tr style=\"border: 1px solid red; border-collapse: collapse; \">";
+		//on extrait chaque valeur de la ligne courante
+		for ($i=0;$i<$nbchamps;$i++) {
+			echo "<td style=\"border: 1px solid red; border-collapse: collapse; \">".$ligne[$i]."</td>";
+		}
+		echo "</tr>";
+	}
+	
+	echo "</table>";
+}

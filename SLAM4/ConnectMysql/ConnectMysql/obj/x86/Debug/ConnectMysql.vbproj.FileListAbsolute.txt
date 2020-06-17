@@ -1,0 +1,9 @@
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.Resources.resources
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.vbproj.GenerateResource.Cache
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\bin\Debug\ConnectMysql.exe
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\bin\Debug\ConnectMysql.pdb
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\bin\Debug\ConnectMysql.xml
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.exe
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.xml
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.pdb
+F:\CHAPALAINOonna\SLAM4\ConnectMysql\ConnectMysql\obj\x86\Debug\ConnectMysql.ButtonValiderModif.resources

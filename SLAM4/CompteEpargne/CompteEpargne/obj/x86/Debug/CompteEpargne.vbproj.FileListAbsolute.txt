@@ -1,0 +1,11 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\bin\Debug\CompteEpargne.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\bin\Debug\CompteEpargne.pdb
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\bin\Debug\CompteEpargne.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\obj\x86\Debug\CompteEpargne.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\obj\x86\Debug\CompteEpargne.vbproj.GenerateResource.Cache
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\obj\x86\Debug\CompteEpargne.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\obj\x86\Debug\CompteEpargne.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteEpargne\obj\x86\Debug\CompteEpargne.pdb
+F:\CHAPALAINOonna\SLAM4\CompteEpargne\CompteEpargne\obj\x86\Debug\CompteEpargne.exe
+F:\CHAPALAINOonna\SLAM4\CompteEpargne\CompteEpargne\obj\x86\Debug\CompteEpargne.xml
+F:\CHAPALAINOonna\SLAM4\CompteEpargne\CompteEpargne\obj\x86\Debug\CompteEpargne.pdb

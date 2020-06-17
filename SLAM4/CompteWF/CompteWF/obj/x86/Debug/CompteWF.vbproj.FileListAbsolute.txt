@@ -1,0 +1,18 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.Form1.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.vbproj.GenerateResource.Cache
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\bin\Debug\CompteWF.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\bin\Debug\CompteWF.pdb
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\bin\Debug\CompteWF.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.exe
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.xml
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteWF\obj\x86\Debug\CompteWF.pdb
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.exe
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.xml
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.pdb
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\bin\Debug\CompteWF.exe
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\bin\Debug\CompteWF.pdb
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\bin\Debug\CompteWF.xml
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.Form1.resources
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.Resources.resources
+F:\CHAPALAINOonna\SLAM4\CompteWF\CompteWF\obj\x86\Debug\CompteWF.vbproj.GenerateResource.Cache

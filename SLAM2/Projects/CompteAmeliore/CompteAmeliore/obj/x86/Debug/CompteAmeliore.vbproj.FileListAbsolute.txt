@@ -1,0 +1,16 @@
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\bin\Debug\CompteAmeliore.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\bin\Debug\CompteAmeliore.pdb
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\bin\Debug\CompteAmeliore.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\obj\x86\Debug\CompteAmeliore.Resources.resources
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\obj\x86\Debug\CompteAmeliore.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\obj\x86\Debug\CompteAmeliore.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\obj\x86\Debug\CompteAmeliore.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\CompteAmeliore\obj\x86\Debug\CompteAmeliore.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\obj\x86\Debug\CompteAmeliore.xml
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\obj\x86\Debug\CompteAmeliore.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\obj\x86\Debug\CompteAmeliore.Resources.resources
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\obj\x86\Debug\CompteAmeliore.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\bin\Debug\CompteAmeliore.exe
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\bin\Debug\CompteAmeliore.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\bin\Debug\CompteAmeliore.xml
+C:\Users\17ochapala\documents\visual studio 2010\Projects\CompteAmeliore\CompteAmeliore\obj\x86\Debug\CompteAmeliore.exe

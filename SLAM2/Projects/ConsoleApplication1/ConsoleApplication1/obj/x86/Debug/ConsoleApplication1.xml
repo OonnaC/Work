@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ConsoleApplication1
+</name>
+</assembly>
+<members>
+<member name="P:ConsoleApplication1.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:ConsoleApplication1.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:ConsoleApplication1.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:ConsoleApplication1.Parking.EntreeVoiture(System.Int32)">
+	<summary>
+ Permet d'ajouter une place de libre sur le parking
+ </summary>
+	<param name="unAjout">
+	</param>
+	<remarks></remarks>
+</member><member name="M:ConsoleApplication1.Parking.SortieVoiture(System.Int32)">
+	<summary>
+ Permet de retirer une place de libre sur le parking
+ </summary>
+	<param name="unDecompte"></param>
+	<remarks></remarks>
+</member><member name="M:ConsoleApplication1.leCompte.depot(System.Int32)">
+	<summary>
+ Permet de deposer une somme sur ce compte
+ </summary>
+	<param name="uneSomme"> somme que l'on desire deposer </param>
+	<remarks></remarks>
+</member><member name="M:ConsoleApplication1.leCompte.retrait(System.Int32)">
+	<summary>
+ Permet de retirer une somme sur ce compte
+ </summary>
+	<param name="unretrait"> montant que l'on desire retirer </param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,19 @@
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\bin\Debug\TP2.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\bin\Debug\TP2.pdb
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\bin\Debug\TP2.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\obj\x86\Debug\TP2.Resources.resources
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\obj\x86\Debug\TP2.vbproj.GenerateResource.Cache
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\obj\x86\Debug\TP2.exe
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\obj\x86\Debug\TP2.xml
+C:\Users\Oonna\AppData\Local\Temporary Projects\TP2\obj\x86\Debug\TP2.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\obj\x86\Debug\TP2.exe
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\obj\x86\Debug\TP2.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\obj\x86\Debug\TP2.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\bin\Debug\TP2.exe
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\bin\Debug\TP2.pdb
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\bin\Debug\TP2.xml
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\obj\x86\Debug\TP2.Resources.resources
+C:\Users\Oonna\documents\visual studio 2010\Projects\TP2\TP2\obj\x86\Debug\TP2.vbproj.GenerateResource.Cache
+F:\CHAPALAINOonna\SLAM4\TP2\TP2\obj\x86\Debug\TP2.exe
+F:\CHAPALAINOonna\SLAM4\TP2\TP2\obj\x86\Debug\TP2.xml
+F:\CHAPALAINOonna\SLAM4\TP2\TP2\obj\x86\Debug\TP2.pdb

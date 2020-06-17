@@ -1,0 +1,41 @@
+TP VB N°2
+*********
+
+Programme caisse enregistreuse
+------------------------------
+
+
+
+Version 5     Date 07/02/2013
+---------     ---------------
+- TODO	Gestion de l'annulation
+
+
+Version 4     Date 07/02/2013
+---------     ---------------
+- Amelioration de la saisie
+- Amelioration de l'interface
+- Gestion des erreurs
+
+
+
+Version 3     Date 07/02/2013
+---------     ---------------
+- Gestion d'un panier
+- Saisie d'un panier
+
+
+
+Version 2     Date 01/02/2013
+---------     ---------------
+- Utilisation d'un tableau de structure
+- Gestion des produits
+- Creation d'un jeu de test
+- Edition du ticket
+
+
+
+Version 1     Date 01/02/2013
+---------     ---------------
+- Gestion des article
+- Gestion de la quantite

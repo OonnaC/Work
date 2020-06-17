@@ -1,0 +1,10 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.vbproj.GenerateResource.Cache
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.Resources.resources
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.vbproj.GenerateResource.Cache
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\bin\Debug\CompteChequeHeritage.exe
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\bin\Debug\CompteChequeHeritage.pdb
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\bin\Debug\CompteChequeHeritage.xml
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.exe
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.xml
+F:\CHAPALAINOonna\SLAM4\CompteChequeHeritage\CompteChequeHeritage\obj\x86\Debug\CompteChequeHeritage.pdb

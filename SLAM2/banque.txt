@@ -1,0 +1,60 @@
+Module ModuleV3
+
+    Dim unCompte As Compte
+
+    Sub Main()
+
+        Dim unChoix As String = ""
+        Dim uneSomme As Integer = 0
+
+        Console.Write("NOM DE LA BANQUE : ")
+        Dim nomBanque As String = Console.ReadLine()
+
+        unCompte = New Compte(1234)
+
+        While unChoix <> "Q" And unChoix <> "q"
+
+            Console.Clear()
+            Console.ForegroundColor = ConsoleColor.White
+            Console.Write("BANQUE : ")
+            Console.ForegroundColor = ConsoleColor.Green
+            Console.WriteLine(nomBanque)
+            Console.ForegroundColor = ConsoleColor.White
+            Console.WriteLine("------")
+
+            unCompte.afficheIHM()
+
+            Console.ForegroundColor = ConsoleColor.White
+            Console.WriteLine("***************************************************")
+            Console.WriteLine("*                                                 *")
+            Console.WriteLine("*  Operations : (D)epot  - (R)etrait - (Q)uitter  *")
+            Console.WriteLine("*                                                 *")
+            Console.WriteLine("***************************************************")
+            Console.WriteLine()
+            Console.Write("                 CHOIX : ")
+            unChoix = Console.ReadLine
+            If unChoix = "D" Or unChoix = "d" Then
+                Console.ForegroundColor = ConsoleColor.Green
+                Console.Write("  DEPOT D'UNE SOMME DE : ")
+                uneSomme = Integer.Parse(Console.ReadLine)
+                unCompte.depot(uneSomme)
+            Else
+                If unChoix = "R" Or unChoix = "r" Then
+                    Console.ForegroundColor = ConsoleColor.Red
+                    Console.Write(" RETRAIT D'UNE SOMME DE : ")
+                    uneSomme = Integer.Parse(Console.ReadLine)
+                    unCompte.retrait(uneSomme)
+                    'Dim sommeManque As Integer = unCompte.fctretrait(uneSomme)
+                    'If sommeManque > 0 Then
+                    '    Console.WriteLine()
+                    '    Console.WriteLine("         PB RETRAIT : il manque : " & sommeManque.ToString)
+                    '    Console.ReadLine()
+                    'End If
+                End If
+            End If
+
+        End While
+
+    End Sub
+
+End Module

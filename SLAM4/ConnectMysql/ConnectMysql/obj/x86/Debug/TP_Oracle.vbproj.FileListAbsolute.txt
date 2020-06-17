@@ -1,0 +1,2 @@
+C:\Users\18ochapala\AppData\Local\Temporary Projects\TP_Oracle\obj\x86\Debug\ConnectMysql.Resources.resources
+C:\Users\18ochapala\AppData\Local\Temporary Projects\TP_Oracle\obj\x86\Debug\TP_Oracle.vbproj.GenerateResource.Cache

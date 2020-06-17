@@ -1,0 +1,104 @@
+Module Fonction3
+
+    Public Structure complexe
+        Dim Re As Single
+        Dim Im As Single
+    End Structure
+
+
+    Function Y(ByVal x As Single, ByVal a As Single, ByVal b As Single, ByVal c As Single) As Single
+
+        Return (a * x * x) + (b * x) + c
+        'ou Y = (a * x * x) + (b * x) + c
+
+    End Function
+
+
+    Function calculDelta(ByVal a As Single, ByVal b As Single, ByVal c As Single) As Single
+
+        Return b * b - (4 * a * c)
+        'ou calculDelta = b * b - (4 * a * c)
+
+    End Function
+
+    Sub afficheComplexe(ByVal unComplexe As complexe)
+
+        If (unComplexe.Im > 0) Then
+            Console.WriteLine(unComplexe.Re.ToString & "+" & unComplexe.Im.ToString & " i")
+        Else
+            Console.WriteLine(unComplexe.Re.ToString & unComplexe.Im.ToString & " i")
+        End If
+
+    End Sub
+
+
+
+
+
+
+    Sub Main()
+
+        Dim a As Single
+        Dim b As Single
+        Dim c As Single
+        Dim x As Single
+
+        Dim resultat As Single
+
+        Console.Write("entrez votre valeur a : ")
+        a = Integer.Parse(Console.ReadLine())
+
+        Console.Write("entrez votre valeur b : ")
+        b = Integer.Parse(Console.ReadLine())
+
+        Console.Write("entrez votre valeur c : ")
+        c = Integer.Parse(Console.ReadLine())
+
+        Console.WriteLine()
+        Console.WriteLine("Tableau de valeurs")
+        Console.WriteLine("------------------")
+        For x = -5 To 5
+            resultat = Y(x, a, b, c)
+            Console.WriteLine("x = " & x.ToString & " --- " & resultat.ToString)
+        Next
+
+        Dim Delta As Single = calculDelta(a, b, c)
+
+        Console.WriteLine("Delta : " & Delta.ToString)
+
+        If Delta = 0 Then
+            Dim x0 As Single
+            x0 = -b / (2 * a)
+            Console.WriteLine("Une solution double : " & x0.ToString)
+        Else
+            If Delta > 0 Then
+                'deux solutions
+                Dim x1 As Single
+                Dim x2 As Single
+                x1 = (-b - Math.Sqrt(Delta)) / (2 * a)
+                x2 = (-b + Math.Sqrt(Delta)) / (2 * a)
+                Console.WriteLine("Deux solutions : " & x1.ToString & " et " & x2.ToString)
+            Else
+                'zero solution
+                Console.WriteLine("Deux solutions dans le monde imaginaire : ")
+                Dim sol1 As complexe
+                Dim sol2 As complexe
+
+                sol1.Re = -b / (2 * a)
+                sol1.Im = Math.Sqrt(Math.Abs(Delta)) / (2 * a)
+
+                sol2.Re = sol1.Re
+                sol2.Im = -sol1.Im
+
+                afficheComplexe(sol1)
+                afficheComplexe(sol2)
+
+            End If
+        End If
+
+        Console.Read()
+
+    End Sub
+
+
+End Module

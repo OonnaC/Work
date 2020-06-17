@@ -1,0 +1,16 @@
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\bin\Debug\TP7poo.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\bin\Debug\TP7poo.pdb
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\bin\Debug\TP7poo.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\obj\x86\Debug\TP7poo.Resources.resources
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\obj\x86\Debug\TP7poo.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\obj\x86\Debug\TP7poo.exe
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\obj\x86\Debug\TP7poo.xml
+C:\Users\17ochapala\AppData\Local\Temporary Projects\TP7poo\obj\x86\Debug\TP7poo.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\obj\x86\Debug\TP7poo.exe
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\obj\x86\Debug\TP7poo.xml
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\obj\x86\Debug\TP7poo.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\bin\Debug\TP7poo.exe
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\bin\Debug\TP7poo.pdb
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\bin\Debug\TP7poo.xml
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\obj\x86\Debug\TP7poo.Resources.resources
+C:\Users\17ochapala\documents\visual studio 2010\Projects\TP7poo\TP7poo\obj\x86\Debug\TP7poo.vbproj.GenerateResource.Cache

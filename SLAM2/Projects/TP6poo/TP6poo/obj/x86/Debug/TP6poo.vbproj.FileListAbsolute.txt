@@ -1,0 +1,8 @@
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\obj\x86\Debug\TP6poo.Resources.resources
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\obj\x86\Debug\TP6poo.vbproj.GenerateResource.Cache
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\bin\Debug\TP6poo.exe
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\bin\Debug\TP6poo.pdb
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\bin\Debug\TP6poo.xml
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\obj\x86\Debug\TP6poo.exe
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\obj\x86\Debug\TP6poo.xml
+C:\Users\17ochapala\Documents\Visual Studio 2010\Projects\TP6poo\TP6poo\obj\x86\Debug\TP6poo.pdb

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testentityModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.7" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="testentityModelStoreContainer">
+    <EntitySet Name="‘user‘" EntityType="testentityModel.Store.‘user‘" store:Type="Tables" Schema="testentity" />
+  </EntityContainer>
+  <EntityType Name="‘user‘">
+    <Key>
+      <PropertyRef Name="numero" />
+    </Key>
+    <Property Name="numero" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="login" Type="char" Nullable="false" MaxLength="20" />
+    <Property Name="password" Type="char" Nullable="false" MaxLength="50" />
+    <Property Name="email" Type="char" Nullable="false" MaxLength="64" />
+  </EntityType>
+</Schema>

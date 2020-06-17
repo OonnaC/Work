@@ -1,0 +1,6 @@
+//TPRoleUti: creation utilisateur 
+CREATE USER agro IDENTIFIED BY Iroise29;
+GRANT DBA To agro;
+connect agro;
+
+inserer 1-CreDB, puis 2-CreContrainte et 3-CreData-1
