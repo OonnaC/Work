@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+		<fieldset name="saisirnomprenomad" action="facture.php" method="get">
+  			<legend>Identitée:</legend>
+ 			Nom: <input id="nom" name="nom" type="text" value="" size="20" maxlength="10"/>
+			<br />
+			<br />
+			Prénom: <input id="prenom" name="prenom" type="text" value="" size="20" maxlength="10"/>
+			<br/>
+			<br />
+			Adresse: <input id="adresse" name="adresse" type="text" value="" size="20" maxlength="30"/>
+		</fieldset>
+		<br/>
+		<fieldset>
+  			<legend>Repas par semaine:</legend>
+ 			Nombre: <input id="nombre" name="nombre" type="text" value="" size="10" maxlength="1"/>
+		</fieldset>
+		<br/>
+		<input type="reset" value="Effacer"/>
+		<input id="envoyer" name="envoyer" type="submit" value="Envoyer" title="Editer la facture"/>
+	
+	</form>
+</body>
+</html>
