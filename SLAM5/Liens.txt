@@ -1,4 +1,0 @@
-https://www.mssqltips.com/sqlservertip/2655/format-sql-server-dates-with-format-function/
-https://www.hackingarticles.in/manual-sql-injection-exploitation-step-step/
-https://www.hackingarticles.in/beginner-guide-sql-injection-part-1/
-http://testphp.vulnweb.com/artists.php?artist=1%20order%20by%201
